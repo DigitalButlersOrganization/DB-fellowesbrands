@@ -15,7 +15,8 @@
     "lint": "npx eslint --fix \"src/**\"",
     "pretty": "npx prettier --write src",
     "pre-commit": "npx eslint --fix \"src/**\" && npx prettier --write src",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
@@ -42,6 +43,7 @@
     "IE 11"
   ],
   "dependencies": {
+    "gh-pages": "^5.0.0",
     "mdb-ui-kit": "^6.2.0",
     "normalize.css": "^8.0.1",
     "vite-plugin-eslint": "^1.8.1"
