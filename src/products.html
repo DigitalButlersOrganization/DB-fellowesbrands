@@ -9,12 +9,12 @@
     <link rel="stylesheet" href="css/products.css" />
   </head>
   <body>
-    <main class="products">
+    <main>
       <!-- HERO START -->
-      <section class="products__hero bg-image d-flex align-items-center">
-        <div class="container-xxl products__hero-container d-flex">
-          <h1 class="products__hero-heading">Products <span class="products__hero-heading-span">& Design</span></h1>
-          <p class="products__hero-paragraph">
+      <section class="products-hero bg-image d-flex align-items-center">
+        <div class="container-xxl products-hero__container d-flex">
+          <h1 class="products-hero__heading">Products <span class="products-hero__heading-span">& Design</span></h1>
+          <p class="products-hero__paragraph">
             Fellowes has a rich history marked by creating the products, systems, and spaces where people can do their best work.
           </p>
         </div>
@@ -22,13 +22,38 @@
       <!-- HERO END -->
       <!-- WORK START -->
       <section class="products__work">
-        <div class="container-xxl products__work-container">
-          <h2 class="products__work-heading--xl">
-            Work
-          </h2>
-          <h3 class="products__work-heading--xl">
-            We’re shaping the world of work. And the world of work shapes us.
-          </h3>
+        <div class="container-xxl products-work__container">
+          <div class="products-work__heading-box">
+            <h2 class="products-work__heading--xxl text-uppercase">
+              Work
+            </h2>
+            <h3 class="products-work__heading--xl">
+              We’re shaping the world of work. And the world of work shapes us.
+            </h3>
+            <p class="producnts__work-paragraph">
+              Fellowes has always been focused on people, and the work they do. More specifically, how they do it, and where they do it. Even from our first product innovations, we’ve brought new efficiency, comfort, and safety to the spaces where work happens.
+            </p>
+          </div>
+          <div class="products-work__content-images-box">
+            <img src="./images/car.webp" alt="pioneers of human-centered product design">
+            <img src="./images/staff.webp" alt="pioneers of human-centered product design">
+            <p class="producnts__work-paragraph">
+              As early pioneers of human-centered product design, our journey led us to an expanded vision of our role in creating healthier workplaces, and a deeper understanding of how indoor environments should be catered to the needs of the people that use them, not the other way around.
+            </p>
+          </div>
+        </div>
+        <div class="products-work__content-video-box">
+          <div class="products-work__video-box">
+            <button class="products-work__video-button js--paused">
+              <svg width="auto" height="auto" viewBox="0 0 18 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.101562 2.05869V19.942C0.101562 21.3057 1.60335 22.1343 2.7599 21.392L16.8111 12.4504C17.8813 11.7771 17.8813 10.2236 16.8111 9.5331L2.7599 0.608693C1.60335 -0.133569 0.101562 0.695003 0.101562 2.05869Z" fill="white"/>
+                </svg>
+            </button>
+            <video id="products-work__video">
+              <source src="./video/lavaggio-di-testa-20277.mp4" type="video/mp4">
+            </video>
+          </div>
+          <img src="./images/Friendly office.webp" alt="Happy staff">
         </div>
       </section>
       <!-- WORK END -->
