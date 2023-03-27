@@ -2,7 +2,7 @@ import 'mdb-ui-kit';
 
 /** ***** Tabs ***** **/
 const initTabs = () => {
-  const tabs = document.getElementById('our-company-tabs');
+  const tabs = document.getElementById('overview-tabs');
   const navLinks = tabs.querySelectorAll('.nav-link');
 
   function disableTabs() {

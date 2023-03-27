@@ -1,28 +1,28 @@
 /******* hero start *******/
 
-.our-company__hero {
+.overview__hero {
   min-height: 100vh;
-  background: linear-gradient(51.52deg, #000000ed -0%, rgba(0, 0, 0, 0.6) 120%), url('../images/our-company-hero.webp') no-repeat center;
+  background: linear-gradient(51.52deg, #000000ed -0%, rgba(0, 0, 0, 0.6) 120%), url('../images/overview-hero.webp') no-repeat center;
   background-size: cover;
 }
 
-.our-company__hero-container {
+.overview__hero-container {
   padding: 10rem 5rem 0;
 }
 
-.our-company__hero-heading {
+.overview__hero-heading {
   font-weight: 600;
   font-size: 8rem;
   color: var(--text-white);
   margin-bottom: 2.5rem;
 }
 
-.our-company__hero-heading-span {
+.overview__hero-heading-span {
   white-space: nowrap;
   padding-left: 4.5rem;
 }
 
-.our-company__hero-paragraph {
+.overview__hero-paragraph {
   padding-left: 4.5rem;
   max-width: 33rem;
   line-height: 1.2em;
@@ -48,7 +48,7 @@
   border-left-color: var(--black);
   color: var(--gray-400);
 }
-.our-company-tab-content {
+.overview-tab-content {
   width: 100%;
 }
 
@@ -67,11 +67,11 @@
 /******* tabs end *******/
 
 /******* family end *******/
-.our-company__family {
+.overview__family {
   position: relative;
 }
 
-.our-company__family-content-wrapper {
+.overview__family-content-wrapper {
   max-width: 50.1rem;
   width: 100%;
   display: flex;
@@ -80,13 +80,13 @@
   margin: 0 auto;
 }
 
-.our-company__family-container {
+.overview__family-container {
   padding: 7.5rem 0;
   /*border-left: 1px solid #f4f4f4;*/
   /*border-right: 1px solid #f4f4f4;*/
 }
 
-.our-company__family--heading--xl {
+.overview__family--heading--xl {
   font-size: 3rem;
   line-height: 1.1em;
   font-weight: 700;
@@ -95,20 +95,20 @@
   margin-bottom: 2.5rem;
 }
 
-.our-company__family-figures-wrapper {
+.overview__family-figures-wrapper {
   padding-bottom: 5rem;
 }
 
-.our-company__family--heading--xl .nowrap {
+.overview__family--heading--xl .nowrap {
   white-space: nowrap;
 }
 
-.our-company__family-paragraph--xl {
+.overview__family-paragraph--xl {
   max-width: 36rem;
   color: var(--outer-space);
 }
 
-.our-company__figure--left {
+.overview__figure--left {
   position: relative;
   left: -2.5rem;
   max-width: 37.5rem;
@@ -116,7 +116,7 @@
   max-height: 20rem;
   object-fit: cover;
 }
-.our-company__figure--center {
+.overview__figure--center {
   position: relative;
   left: 5.5rem;
   max-width: 16.875rem;
@@ -124,7 +124,7 @@
   width: 100%;
   object-fit: cover;
 }
-.our-company__figure--right {
+.overview__figure--right {
   position: relative;
   right: -5.5rem;
   top: -20rem;
@@ -133,7 +133,7 @@
   object-fit: cover;
 }
 
-.our-company__family-heading--xxl {
+.overview__family-heading--xxl {
   font-size: 9.375rem;
   font-weight: 800;
   line-height: 1.4em;
@@ -143,26 +143,26 @@
   margin-bottom: -1.8rem;
 }
 
-.our-company__family-paragraph--lg {
+.overview__family-paragraph--lg {
   font-size: 0.813rem;
   max-width: 40rem;
   margin: 0 auto;
 }
 
-.our-company__family-list {
+.overview__family-list {
   max-width: 70rem;
   margin: 0 auto;
   column-gap: 1.875rem;
   row-gap: 5rem;
 }
 
-.our-company__family-item {
+.overview__family-item {
   max-width: 19.375rem;
   padding-left: 2.5rem;
   position: relative;
 }
 
-.our-company__family-item i {
+.overview__family-item i {
   position: absolute;
   top: -4.375rem;
   left: 0;
@@ -171,19 +171,19 @@
   z-index: -1;
 }
 
-.our-company__family-item .icon-1 {
+.overview__family-item .icon-1 {
   background: url('../images/svg/1.svg') no-repeat center;
 }
 
-.our-company__family-item .icon-2 {
+.overview__family-item .icon-2 {
   background: url('../images/svg/2.svg') no-repeat center;
 }
 
-.our-company__family-item .icon-3 {
+.overview__family-item .icon-3 {
   background: url('../images/svg/3.svg') no-repeat center;
 }
 
-.our-company__family-item-heading {
+.overview__family-item-heading {
   font-weight: 700;
   font-size: 2.125rem;
   line-height: 1.2em;
@@ -191,7 +191,7 @@
   color: var(--eerie-black);
 }
 
-.our-company__family-item-paragraph {
+.overview__family-item-paragraph {
   font-size: 0.813rem;
   color: var(--outer-space);
 }
@@ -199,22 +199,22 @@
 /******* family end *******/
 
 /******* innovation start *******/
-.our-company__innovation-container {
+.overview__innovation-container {
   padding: 7rem 0 3.125rem;
 }
 
-.our-company__innovation-content-wrapper {
+.overview__innovation-content-wrapper {
   max-width: 60rem;
   width: 100%;
   margin: 0 auto;
 }
 
-.our-company__innovation-header {
+.overview__innovation-header {
   position: relative;
   margin-bottom: 14rem;
 }
 
-.our-company__innovation-heading--xxl {
+.overview__innovation-heading--xxl {
   max-width: 27rem;
   font-size: 9.375rem;
   font-weight: 800;
@@ -225,7 +225,7 @@
   word-wrap: break-word !important;
 }
 
-.our-company__innovation-figure {
+.overview__innovation-figure {
   position: absolute;
   right: -1.5rem;
   bottom: -4rem;
@@ -236,7 +236,7 @@
   object-fit: cover;
 }
 
-.our-company__innovation-heading--xl {
+.overview__innovation-heading--xl {
   font-weight: 700;
   font-size: 3rem;
   line-height: 1.1em;
@@ -246,29 +246,29 @@
   max-width: 34.145rem;
 }
 
-.our-company__innovation-paragraph {
+.overview__innovation-paragraph {
   font-size: 0.813rem;
   color: var(--outer-space);
   max-width: 40rem;
 }
 
-.our-company__innovation-heading--grey {
+.overview__innovation-heading--grey {
   color: var(--approx-grey);
 }
 
-.our-company__innovation-figure-heading {
+.overview__innovation-figure-heading {
   max-width: 18.938rem;
   margin: 0 auto;
   margin-bottom: 6.5rem;
 }
 
-.our-company__innovation-top-figure-wrapper {
+.overview__innovation-top-figure-wrapper {
   position: relative;
   column-gap: 0.875rem;
   margin-bottom: 6.5rem;
 }
 
-.our-company__innovation-top-figure--left {
+.overview__innovation-top-figure--left {
   position: relative;
   bottom: -5.5rem;
   left: -2rem;
@@ -277,7 +277,7 @@
   height: 22.5rem;
 }
 
-.our-company__innovation-top-figure--center {
+.overview__innovation-top-figure--center {
   position: relative;
   top: 0.375rem;
   object-fit: cover;
@@ -285,7 +285,7 @@
   height: 15.125rem;
 }
 
-.our-company__innovation-top-figure--right {
+.overview__innovation-top-figure--right {
   position: relative;
   top: -7rem;
   right: -2rem;
@@ -294,13 +294,13 @@
   height: 22.5rem;
 }
 
-.our-company__innovation-bottom-figure-wrapper {
+.overview__innovation-bottom-figure-wrapper {
   position: relative;
   column-gap: 0.875rem;
   max-height: 24rem;
 }
 
-.our-company__innovation-bottom-figure--left {
+.overview__innovation-bottom-figure--left {
   position: relative;
   top: -14rem;
   left: -2rem;
@@ -309,13 +309,13 @@
   height: 31.25rem;
 }
 
-.our-company__innovation-bottom-figure--center {
+.overview__innovation-bottom-figure--center {
   object-fit: cover;
   width: 27.875rem;
   height: 24.063rem;
 }
 
-.our-company__innovation-bottom-figure--right {
+.overview__innovation-bottom-figure--right {
   position: relative;
   top: -26rem;
   right: -2rem;
@@ -327,14 +327,14 @@
 
 /******* quality start *******/
 
-.our-company__quality-container {
+.overview__quality-container {
   padding: 3.125rem 0;
   max-width: 60rem;
   width: 100%;
   margin: 0 auto;
 }
 
-.our-company__quality-heading--xxl {
+.overview__quality-heading--xxl {
   font-size: 9.375rem;
   font-weight: 800;
   line-height: 1.4;
@@ -344,7 +344,7 @@
   margin-bottom: -1.2rem;
 }
 
-.our-company__quality-heading--xl {
+.overview__quality-heading--xl {
   font-weight: 700;
   font-size: 3rem;
   line-height: 1.1em;
@@ -354,7 +354,7 @@
   max-width: 36.438rem;
 }
 
-.our-company__quality-paragraph {
+.overview__quality-paragraph {
   font-size: 1.063rem;
   color: var(--outer-space);
   max-width: 38.563rem;
@@ -362,7 +362,7 @@
   line-height: 1.6em;
 }
 
-.our-company__quality-list {
+.overview__quality-list {
   display: flex;
   flex-direction: column;
   row-gap: 1.5rem;
@@ -371,11 +371,11 @@
   max-width: 37rem;
   margin-bottom: 7.5rem;
 }
-.our-company__quality-item {
+.overview__quality-item {
   margin-left: 3.25rem;
   position: relative;
 }
-.our-company__quality-item::before {
+.overview__quality-item::before {
   content: '';
   position: absolute;
   left: -2.25rem;
@@ -387,14 +387,14 @@
   background-color: var(--list-item-decoration-color);
 }
 
-.our-company__quality-figures-wrapper {
+.overview__quality-figures-wrapper {
   position: relative;
   display: flex;
   column-gap: 2.375rem;
   max-height: 18.75rem;
 }
 
-.our-company__quality-figure--right {
+.overview__quality-figure--right {
   position: absolute;
   right: 0;
   top: -28.4rem;
@@ -403,13 +403,13 @@
   object-fit: cover;
 }
 
-.our-company__quality-figure--left {
+.overview__quality-figure--left {
   width: 28%;
   max-width: 18.438rem;
   object-fit: cover;
 }
 
-.our-company__quality-figure--center {
+.overview__quality-figure--center {
   width: 68%;
   max-width: 39.188rem;
   object-fit: cover;
@@ -420,7 +420,7 @@
 
 /******* care start *******/
 
-.our-company__care-container {
+.overview__care-container {
   max-width: 60rem;
   width: 100%;
   margin: 0 auto;
@@ -430,7 +430,7 @@
   align-items: center;
 }
 
-.our-company__care-heading--xxl {
+.overview__care-heading--xxl {
   font-size: 9.375rem;
   font-weight: 800;
   line-height: 1.4;
@@ -440,7 +440,7 @@
   margin-bottom: -1.8rem;
 }
 
-.our-company__care-heading--xl {
+.overview__care-heading--xl {
   font-weight: 700;
   font-size: 3rem;
   line-height: 1.1em;
@@ -449,34 +449,34 @@
   margin-bottom: 2.25rem;
 }
 
-.our-company__care-paragraph {
+.overview__care-paragraph {
   font-size: 0.813rem;
   color: var(--outer-space);
   max-width: 40rem;
   margin-bottom: 5.25rem;
 }
 
-.our-company__care-top-figures-wrapper,
-.our-company__care-center-figures-wrapper,
-.our-company__care-bottom-figures-wrapper {
+.overview__care-top-figures-wrapper,
+.overview__care-center-figures-wrapper,
+.overview__care-bottom-figures-wrapper {
   display: flex;
   width: 100%;
   column-gap: 2.5rem;
   max-height: 18.75rem;
 }
 
-.our-company__care-top-figures-wrapper,
-.our-company__care-center-figures-wrapper {
+.overview__care-top-figures-wrapper,
+.overview__care-center-figures-wrapper {
   margin-bottom: 2.5rem;
 }
 
-.our-company__care-description-wrapper {
+.overview__care-description-wrapper {
   min-width: 18.125rem;
   width: 100%;
   padding: 3.438rem 0;
 }
 
-.our-company__care-description-heading {
+.overview__care-description-heading {
   max-width: 17.5rem;
   font-weight: 700;
   font-size: 1.75rem;
@@ -486,30 +486,30 @@
   margin-bottom: 1.375rem;
 }
 
-.our-company__care-description-paragraph {
+.overview__care-description-paragraph {
   font-size: 0.813rem;
   color: var(--outer-space);
 }
 
-.our-company__care-figure--xl {
+.overview__care-figure--xl {
   width: 100%;
   max-width: 18.438rem;
   object-fit: cover;
 }
 
-.our-company__care-figure--xxl {
+.overview__care-figure--xxl {
   width: 100%;
   max-width: 33.4rem;
   object-fit: cover;
   position: relative;
 }
 
-.our-company__care-center-figures-wrapper {
+.overview__care-center-figures-wrapper {
   position: relative;
   left: -15.3rem;
 }
 
-.our-company__care-bottom-figures-wrapper .our-company__care-figure--xxl {
+.overview__care-bottom-figures-wrapper .overview__care-figure--xxl {
   max-width: 39.25rem;
   width: 100%;
 }
@@ -518,11 +518,11 @@
 
 /******* pre-footer start *******/
 
-.our-company__pre-footer {
+.overview__pre-footer {
   background-color: var(--pre-footer-color);
 }
 
-.our-company__pre-footer-container {
+.overview__pre-footer-container {
   padding: 7.5rem 0 10rem;
   max-width: 71.25rem;
   text-align: center;
@@ -532,7 +532,7 @@
   align-items: center;
 }
 
-.our-company__pre-footer-heading {
+.overview__pre-footer-heading {
   font-weight: 700;
   font-size: 3rem;
   line-height: 1.1em;
@@ -542,20 +542,20 @@
   margin-bottom: 1.5rem;
 }
 
-.our-company__pre-footer-paragraph {
+.overview__pre-footer-paragraph {
   max-width: 50rem;
   margin-bottom: 5rem;
   font-size: 1.125rem;
   color: var(--outer-space);
 }
 
-.our-company__pre-footer-list {
+.overview__pre-footer-list {
   display: flex;
   column-gap: 1rem;
   justify-content: space-between;
 }
 
-.our-company__pre-footer-item {
+.overview__pre-footer-item {
   max-width: 24.25rem;
   width: 100%;
 }
@@ -566,20 +566,20 @@
 
 @media (max-width: 1439px) {
   /******* family start *******/
-  .our-company__family-container {
+  .overview__family-container {
     padding: 7.5rem 1.5rem;
   }
-  .our-company__family-figures-wrapper {
+  .overview__family-figures-wrapper {
     gap: 1rem;
     padding-bottom: 3.125rem;
     justify-content: center;
   }
-  .our-company__figure--left,
-  .our-company__figure--center,
-  .our-company__figure--right {
+  .overview__figure--left,
+  .overview__figure--center,
+  .overview__figure--right {
     position: static;
   }
-  .our-company__family-figures-wrapper img {
+  .overview__family-figures-wrapper img {
     max-height: none;
     height: 17.25rem;
     max-width: 33%;
@@ -589,48 +589,48 @@
 
   /******* innovation start *******/
 
-  .our-company__innovation-container {
+  .overview__innovation-container {
     padding: 7rem 1.5rem 3.125rem;
   }
 
-  .our-company__innovation-top-figure-wrapper {
+  .overview__innovation-top-figure-wrapper {
     margin-bottom: calc(7vw + 0.375rem);
   }
 
-  .our-company__innovation-figure-heading {
+  .overview__innovation-figure-heading {
     margin-bottom: 7vw;
   }
 
-  .our-company__innovation-bottom-figure-wrapper {
+  .overview__innovation-bottom-figure-wrapper {
     max-height: 26vw;
   }
 
-  .our-company__innovation-top-figure-wrapper,
-  .our-company__innovation-bottom-figure-wrapper {
+  .overview__innovation-top-figure-wrapper,
+  .overview__innovation-bottom-figure-wrapper {
     justify-content: space-between;
   }
 
-  .our-company__innovation-top-figure-wrapper img,
-  .our-company__innovation-bottom-figure-wrapper img {
+  .overview__innovation-top-figure-wrapper img,
+  .overview__innovation-bottom-figure-wrapper img {
     width: 31%;
     height: auto;
   }
 
-  .our-company__innovation-top-figure--left,
-  .our-company__innovation-top-figure--right {
+  .overview__innovation-top-figure--left,
+  .overview__innovation-top-figure--right {
     left: 0;
     top: 7vw;
     min-height: 28vw;
   }
 
-  .our-company__innovation-bottom-figure--left,
-  .our-company__innovation-bottom-figure--right {
+  .overview__innovation-bottom-figure--left,
+  .overview__innovation-bottom-figure--right {
     top: -14vw;
     left: 0;
     min-height: 34vw;
   }
 
-  .our-company__innovation-bottom-figure--right {
+  .overview__innovation-bottom-figure--right {
     top: -14vw;
     left: 0;
     min-height: 42vw;
@@ -640,28 +640,28 @@
 
   /******* quality start *******/
 
-  .our-company__quality-container {
+  .overview__quality-container {
     padding: 3.125rem 1.5rem;
   }
 
-  .our-company__quality-figure--right {
+  .overview__quality-figure--right {
     display: none;
   }
 
-  .our-company__quality-heading--xxl {
+  .overview__quality-heading--xxl {
     font-size: 15vw;
   }
 
-  .our-company__quality-figures-wrapper {
+  .overview__quality-figures-wrapper {
     column-gap: 0.813rem;
     max-height: 25vw;
   }
 
-  .our-company__quality-list {
+  .overview__quality-list {
     margin-bottom: 2rem;
   }
 
-  .our-company__quality-item {
+  .overview__quality-item {
     margin-left: 2.25rem;
   }
 
@@ -669,24 +669,24 @@
 
   /******* care start *******/
 
-  .our-company__care-container {
+  .overview__care-container {
     padding: 3.25rem 1.5rem 18.25rem;
   }
 
-  .our-company__care-figure--xl,
-  .our-company__care-figure--xxl {
+  .overview__care-figure--xl,
+  .overview__care-figure--xxl {
     max-width: 17.438rem;
   }
 
-  .our-company__care-description-wrapper {
+  .overview__care-description-wrapper {
     min-width: 17.125rem;
   }
 
-  .our-company__care-center-figures-wrapper {
+  .overview__care-center-figures-wrapper {
     position: static;
   }
 
-  .our-company__care-bottom-figures-wrapper .our-company__care-figure--xxl {
+  .overview__care-bottom-figures-wrapper .overview__care-figure--xxl {
     max-width: 36.75rem;
   }
 
@@ -694,11 +694,11 @@
 
   /******* pre-footer start *******/
 
-  .our-company__pre-footer-container {
+  .overview__pre-footer-container {
     padding: 7.5rem 1.5rem 10rem;
   }
 
-  .our-company__pre-footer-item img {
+  .overview__pre-footer-item img {
     width: 100%;
     height: auto;
   }
@@ -712,19 +712,19 @@
 
 @media (max-width: 1279px) {
   /******* hero start *******/
-  .our-company__hero-container {
+  .overview__hero-container {
     padding: 8.25rem 3rem 2rem;
   }
 
-  .our-company__hero-heading {
+  .overview__hero-heading {
     font-size: 5.25em;
   }
 
-  .our-company__hero-heading-span {
+  .overview__hero-heading-span {
     padding-left: 2.5rem;
   }
 
-  .our-company__hero-paragraph {
+  .overview__hero-paragraph {
     padding-left: 2.5rem;
     max-width: 33rem;
   }
@@ -732,19 +732,19 @@
 
   /******* innovation start *******/
 
-  .our-company__innovation-container {
+  .overview__innovation-container {
     padding: 5rem 1.5rem 3.125rem;
   }
-  .our-company__innovation-heading--xxl {
+  .overview__innovation-heading--xxl {
     font-size: 12vw;
     max-width: 26vw;
   }
 
-  .our-company__innovation-header {
+  .overview__innovation-header {
     margin-bottom: 10rem;
   }
 
-  .our-company__innovation-figure {
+  .overview__innovation-figure {
     max-width: 55vw;
     left: 24vw;
     top: 8vw;
@@ -753,7 +753,7 @@
     height: auto;
   }
 
-  .our-company__innovation-figure-heading {
+  .overview__innovation-figure-heading {
     font-size: 4vw;
     max-width: 30vw;
   }
@@ -768,54 +768,54 @@
 @media screen and (max-width: 992px) {
   /******* care start *******/
 
-  .our-company__care-top-figures-wrapper,
-  .our-company__care-center-figures-wrapper,
-  .our-company__care-bottom-figures-wrapper {
+  .overview__care-top-figures-wrapper,
+  .overview__care-center-figures-wrapper,
+  .overview__care-bottom-figures-wrapper {
     flex-wrap: wrap;
     max-height: none;
     column-gap: 4%;
   }
 
-  .our-company__care-description-wrapper {
+  .overview__care-description-wrapper {
     padding: 0;
     order: 0;
     margin-bottom: 2rem;
   }
 
-  .our-company__care-figure--xl,
-  .our-company__care-figure--xxl {
+  .overview__care-figure--xl,
+  .overview__care-figure--xxl {
     max-width: none;
     width: 100%;
     max-height: 18.75rem;
   }
 
-  .our-company__care-top-figures-wrapper .our-company__care-figure--xl,
-  .our-company__care-center-figures-wrapper .our-company__care-figure--xl {
+  .overview__care-top-figures-wrapper .overview__care-figure--xl,
+  .overview__care-center-figures-wrapper .overview__care-figure--xl {
     max-width: 36%;
     order: 1;
   }
 
-  .our-company__care-center-figures-wrapper .our-company__care-figure--xxl,
-  .our-company__care-top-figures-wrapper .our-company__care-figure--xxl {
+  .overview__care-center-figures-wrapper .overview__care-figure--xxl,
+  .overview__care-top-figures-wrapper .overview__care-figure--xxl {
     max-width: 60%;
     order: 2;
   }
 
-  .our-company__care-bottom-figures-wrapper .our-company__care-figure--xxl {
+  .overview__care-bottom-figures-wrapper .overview__care-figure--xxl {
     max-width: 100%;
     order: 2;
   }
 
-  .our-company__care-paragraph {
+  .overview__care-paragraph {
     margin-bottom: 2.5rem;
     font-size: 0.938rem;
   }
 
-  .our-company__care-description-heading {
+  .overview__care-description-heading {
     max-width: none;
   }
 
-  .our-company__care-container {
+  .overview__care-container {
     padding-bottom: 5rem;
   }
 
@@ -827,25 +827,25 @@
 
 @media screen and (max-width: 768px) {
   /******* hero start *******/
-  .our-company__hero {
-    background: linear-gradient(11.79deg, #000000 0%, rgba(0, 0, 0, 0.4) 80%), url('../images/our-company-hero.webp') no-repeat center;
+  .overview__hero {
+    background: linear-gradient(11.79deg, #000000 0%, rgba(0, 0, 0, 0.4) 80%), url('../images/overview-hero.webp') no-repeat center;
     background-size: cover;
   }
-  .our-company__hero-container {
+  .overview__hero-container {
     padding: 5rem 1.5rem 7.5rem;
     justify-content: flex-end !important;
   }
 
-  .our-company__hero-heading {
+  .overview__hero-heading {
     font-size: 3rem;
     margin-bottom: 1.75rem;
   }
 
-  .our-company__hero-heading-span {
+  .overview__hero-heading-span {
     padding-left: 0;
   }
 
-  .our-company__hero-paragraph {
+  .overview__hero-paragraph {
     padding-left: 0;
     max-width: 100%;
   }
@@ -853,28 +853,28 @@
 
   /******* family start *******/
 
-  .our-company__family--heading--xl {
+  .overview__family--heading--xl {
     font-size: 2rem;
     margin-bottom: 1.5rem;
   }
 
-  .our-company__family-heading--xxl {
+  .overview__family-heading--xxl {
     font-size: 5rem;
     margin-bottom: -1rem;
   }
 
-  .our-company .our-company__family-content-wrapper.mb-10 {
+  .overview .overview__family-content-wrapper.mb-10 {
     margin-bottom: 6.25rem !important;
   }
 
-  .our-company__family-list {
+  .overview__family-list {
     justify-content: center !important;
     row-gap: 5rem;
     padding: 0 0.375rem;
     flex-direction: column;
   }
 
-  .our-company__family-item i {
+  .overview__family-item i {
     position: absolute;
     top: -3rem;
     left: 0;
@@ -882,15 +882,15 @@
     height: 7.5rem;
   }
 
-  .our-company__family-item-heading {
+  .overview__family-item-heading {
     font-size: 1.5rem;
   }
 
-  .our-company__family-item-heading.mb-4 {
+  .overview__family-item-heading.mb-4 {
     margin-bottom: 1rem;
   }
 
-  .our-company__family-item-paragraph {
+  .overview__family-item-paragraph {
     font-size: 0.938rem;
   }
 
@@ -898,47 +898,47 @@
 
   /******* innovation start *******/
 
-  .our-company__innovation-container {
+  .overview__innovation-container {
     padding: 5.125rem 1.5rem 3.125rem;
   }
 
-  .our-company__innovation-heading--xxl {
+  .overview__innovation-heading--xxl {
     font-size: 15vw;
     max-width: 34vw;
   }
 
-  .our-company__innovation-header {
+  .overview__innovation-header {
     margin-bottom: 10rem;
   }
 
-  .our-company__innovation-figure {
+  .overview__innovation-figure {
     max-width: 61vw;
     left: 31vw;
     top: 10vw;
     bottom: auto;
   }
 
-  .our-company__innovation-figure-heading {
+  .overview__innovation-figure-heading {
     font-size: 4vw;
     max-width: 30vw;
   }
 
-  .our-company__innovation-bottom-figure-wrapper {
+  .overview__innovation-bottom-figure-wrapper {
     max-height: 26vw;
   }
 
   /******* quality start *******/
 
-  .our-company__quality-figures-wrapper {
+  .overview__quality-figures-wrapper {
     column-gap: 0.813rem;
     max-height: 28vw;
   }
 
-  .our-company__quality-heading--xl {
+  .overview__quality-heading--xl {
     margin-bottom: 1.5rem;
   }
 
-  .our-company__quality-paragraph {
+  .overview__quality-paragraph {
     font-size: 0.938rem;
     margin-bottom: 3.375rem;
   }
@@ -947,28 +947,28 @@
 
   /******* care start *******/
 
-  .our-company__care-heading--xxl {
+  .overview__care-heading--xxl {
     font-size: 15vw;
   }
 
-  .our-company__care-heading--xl {
+  .overview__care-heading--xl {
     margin-bottom: 1.5rem;
   }
 
-  .our-company__care-figure--xl,
-  .our-company__care-figure--xxl {
+  .overview__care-figure--xl,
+  .overview__care-figure--xxl {
     max-height: 28vw;
   }
   /******* care start *******/
 
   /******* pre-footer start *******/
 
-  .our-company__pre-footer-list {
+  .overview__pre-footer-list {
     flex-direction: column;
     row-gap: 1rem;
   }
 
-  .our-company__pre-footer-item {
+  .overview__pre-footer-item {
     width: 100%;
   }
 
@@ -981,7 +981,7 @@
 
 @media (max-width: 480px) {
   /******* hero start *******/
-  .our-company__hero-heading {
+  .overview__hero-heading {
     font-size: 2.5rem;
     line-height: 1.2em;
   }
@@ -989,15 +989,15 @@
 
   /******* family start *******/
 
-  .our-company__family-container {
+  .overview__family-container {
     padding: 3.125rem 1.5rem;
   }
 
-  .our-company__family-heading--xxl {
+  .overview__family-heading--xxl {
     font-size: 3.25rem;
   }
 
-  .our-company__family-figures-wrapper img {
+  .overview__family-figures-wrapper img {
     height: 6.875rem;
     width: 30%;
   }
@@ -1006,36 +1006,36 @@
 
   /******* innovation start *******/
 
-  .our-company__innovation-container {
+  .overview__innovation-container {
     padding: 3.125rem 1.5rem 3.125rem;
   }
 
-  .our-company__innovation-header {
+  .overview__innovation-header {
     margin-bottom: 4.56rem;
   }
 
-  .our-company__innovation-heading--xxl {
+  .overview__innovation-heading--xxl {
     font-size: 13.2vw;
     max-width: 30vw;
   }
 
-  .our-company__innovation-figure {
+  .overview__innovation-figure {
     left: 27vw;
     top: 8vw;
   }
 
-  .our-company__innovation-heading--xl {
+  .overview__innovation-heading--xl {
     font-size: 2rem;
     width: 100%;
     margin-bottom: 1.5rem;
   }
 
-  .our-company__innovation-paragraph {
+  .overview__innovation-paragraph {
     font-size: 0.938rem;
     margin-bottom: 1.5rem;
   }
 
-  .our-company__innovation-figure-heading {
+  .overview__innovation-figure-heading {
     font-size: 3.15vw;
     max-width: 24vw;
   }
@@ -1043,24 +1043,24 @@
 
   /******* quality start *******/
 
-  .our-company__quality-heading--xl {
+  .overview__quality-heading--xl {
     font-size: 2rem;
   }
 
-  .our-company__quality-heading--xxl {
+  .overview__quality-heading--xxl {
     font-size: 3.25rem;
   }
   /******* quality end *******/
 
   /******* care start *******/
 
-  .our-company__care-heading--xxl {
+  .overview__care-heading--xxl {
     font-size: 3.25rem;
     position: relative;
     margin-bottom: 0;
   }
 
-  .our-company__care-heading--xxl::before {
+  .overview__care-heading--xxl::before {
     content: 'care';
     position: absolute;
     bottom: 0;
@@ -1077,43 +1077,43 @@
     border-radius: 0.5rem;
   }
 
-  .our-company__care-heading--xl {
+  .overview__care-heading--xl {
     font-size: 2rem;
     max-width: 21.563rem;
     text-align: center;
   }
 
-  .our-company__care-description-heading {
+  .overview__care-description-heading {
     font-size: 1.5rem;
     margin-bottom: 1rem;
   }
 
-  .our-company__care-description-paragraph {
+  .overview__care-description-paragraph {
     font-size: 0.938rem;
   }
 
-  .our-company__care-top-figures-wrapper,
-  .our-company__care-center-figures-wrapper {
+  .overview__care-top-figures-wrapper,
+  .overview__care-center-figures-wrapper {
     margin-bottom: 4rem;
   }
 
-  .our-company__care-container {
+  .overview__care-container {
     padding-bottom: 3.125rem;
   }
 
   /******* care end *******/
 
   /******* pre-footer start *******/
-  .our-company__pre-footer-container {
+  .overview__pre-footer-container {
     padding: 3.125rem 1.5rem;
   }
 
-  .our-company__pre-footer-heading {
+  .overview__pre-footer-heading {
     font-size: 2rem;
     max-width: 18.75rem;
   }
 
-  .our-company__pre-footer-paragraph {
+  .overview__pre-footer-paragraph {
     font-size: 0.938rem;
     margin-bottom: 2rem;
   }
