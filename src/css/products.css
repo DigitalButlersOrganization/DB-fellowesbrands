@@ -1,0 +1,325 @@
+/******* hero start *******/
+
+.products-hero {
+  min-height: 100vh;
+  background: linear-gradient(291.63deg, #000000ed -15%, rgba(0, 0, 0, 0.6) 120%), url('../images/overview-hero.webp') no-repeat center;
+  background-size: cover;
+}
+
+.products-hero__container {
+  padding: 10rem 5rem 0;
+}
+
+.products-hero__heading {
+  font-weight: 600;
+  font-size: 8rem;
+  color: var(--text-white);
+  max-width: 50.625rem;
+}
+
+.products-hero__heading-span {
+  white-space: nowrap;
+  padding-left: 12.5rem;
+}
+
+.products-hero__paragraph {
+  font-size: 1.063rem;
+  max-width: 18.75rem;
+  color: var(--text-white);
+  padding: 5rem 0 0 2rem;
+}
+
+/******* hero end *******/
+
+/******* work start *******/
+
+.products__work {
+  padding: 7.5rem 0 3.25rem;
+}
+
+.products-work__container {
+  max-width: 60rem;
+  position: relative;
+}
+
+.products-work__heading-box {
+  position: relative;
+  max-width: 30.05rem;
+  margin-bottom: 10.5rem;
+}
+
+.products-work__heading--xxl {
+  position: absolute;
+  left: 2rem;
+  top: -4rem;
+  font-size: 9.375rem;
+  font-weight: 800;
+  line-height: 1.4em;
+  letter-spacing: 0.2em;
+  color: var(--text-white);
+  -webkit-text-stroke: 1px var(--text-border-color);
+  z-index: -1;
+}
+
+.products-work__heading--xl {
+  font-size: 3rem;
+  line-height: 1.1em;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: var(--eerie-black);
+  margin-bottom: 2.25rem;
+  z-index: 5;
+}
+
+.producnts__work-paragraph {
+  max-width: 30.5rem;
+  font-size: 1.063rem;
+  color: var(--outer-space);
+}
+
+.products-work__content-images-box {
+  width: 40rem;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 2.25rem;
+  column-gap: 2.5rem;
+  position: absolute;
+  top: 1.5rem;
+  left: 34.9rem
+}
+
+.products-work__content-images-box img {
+  width: 18.75rem;
+  height: 18.75rem;
+  object-fit: cover;
+}
+
+.products-work__content-video-box {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  max-width: 90rem;
+  column-gap: 5.5%;
+  height: 30rem;
+  margin: 0 auto;
+}
+
+.products-work__content-video-box img {
+  width: 36%;
+  object-fit: cover;
+  height: 100%;
+}
+
+.products-work__video-box {
+  height: 100%;
+  width: 58.5%;
+  cursor: pointer;
+  position: relative;
+  cursor: pointer;
+  position: relative;
+}
+
+.products-work__video-box video {
+  height: 100%;
+  width: 100%;
+}
+
+.products-work__video-button {
+  opacity: 0;
+  width: 3.625rem;
+  height: 3.625rem;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.4);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+  transition: all linear .2s;
+}
+
+.products-work__video-button:hover {
+  opacity: .8;
+  transform: scale3d(1.1);
+}
+
+.products-work__video-button.js--paused {
+  opacity: 1;
+}
+
+.products-work__video-button svg {
+  width: 1.375rem;
+  height: 1.125rem;
+
+}
+
+/******* work end *******/
+
+/******* process start *******/
+
+.products-process__container {
+  max-width: 82.5rem;
+  padding: 3.74rem 0 11.875rem;
+}
+
+.products-process__header {
+  display: flex;
+  column-gap: 5rem;
+  row-gap: 1.5rem;
+  flex-wrap: wrap;
+  max-width: 60rem;
+  margin: 0 auto 10rem;
+}
+
+.products-process__heading--xl {
+  font-size: 3rem;
+  line-height: 1.1em;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: var(--eerie-black);
+  max-width: 32.5rem;
+}
+
+.products-process__paragraph {
+  font-size: 1.063rem;
+  max-width: 22.375rem;
+  color: var(--outer-space);
+}
+
+/******* process end *******/
+
+@media (max-width: 1439px) {
+  /******* work start *******/
+
+  .products__work {
+    padding: 7.5rem 1.5rem 3.25rem;
+  }
+
+  .products-work__heading-box {
+    margin-bottom: 3rem;
+  }
+
+  .products-work__heading--xl {
+    margin-bottom: 2.25rem;
+  }
+
+  .producnts__work-paragraph {
+    max-width: 100%;
+    font-size: 1.063rem;
+    color: var(--outer-space);
+  }
+
+  .products-work__content-images-box {
+    position: static;
+    margin-bottom: 3rem;
+    column-gap: 4%;
+    row-gap: 2.25rem;
+    width: 100%;
+  }
+
+  .products-work__content-images-box img {
+    width: 46%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .products-work__content-video-box {
+    width: 100%;
+    height: auto;
+  }
+
+  .products-work__content-video-box img {
+    height: auto;
+    padding-bottom: .42rem
+  }
+
+}
+
+@media (max-width: 1279px) {
+  /******* hero start *******/
+  .products-hero__container {
+    padding: 8.25rem 3rem 2rem;
+    flex-direction: column;
+  }
+
+  .products-hero__heading {
+    margin-bottom: 2.5rem;
+  }
+
+  .products-hero__heading-span {
+    padding-left: 2.5rem;
+  }
+
+  .products-hero__paragraph {
+    padding: 0 0 0 2.5rem;
+    max-width: 33rem;
+  }
+  /******* hero end *******/
+
+}
+
+@media screen and (max-width: 768px) {
+  /******* hero start *******/
+  .products-hero {
+    background: linear-gradient(11.79deg, #000000 0%, rgba(0, 0, 0, 0.4) 80%), url('../images/overview-hero.webp') no-repeat center;
+    background-size: cover;
+    align-items: flex-end !important;;
+  }
+  .products-hero__container {
+    padding: 5rem 1.5rem 6.25rem;
+  }
+
+  .products-hero__heading {
+    font-size: 3rem;
+  }
+
+  .products-hero__heading-span {
+    padding-left: 0;
+  }
+
+  .products-hero__paragraph {
+    padding-left: 0;
+    max-width: 21.56rem;
+  }
+  /******* hero end *******/
+
+  /******* work start *******/
+  .products-work__heading--xxl  {
+    font-size: 6rem;
+  }
+  /******* work end *******/
+
+}
+
+@media screen and (max-width: 480px) {
+  /******* work start *******/
+
+    .products__work {
+      padding: 3.125rem 1.5rem;
+    }
+
+    .products-work__heading--xxl  {
+      font-size: 3.25rem;
+      top: -2rem;
+      left: 3.8rem;
+    }
+
+    .products-work__heading--xl {
+      font-size: 3rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .products-work__heading-box {
+      margin-bottom: 3.75rem;
+    }
+
+    .products-work__content-images-box {
+      row-gap: 1.5rem;
+    }
+
+    .products-work__content-images-box {
+      margin-bottom: 2rem;
+    }
+
+  /******* work end *******/
+}
