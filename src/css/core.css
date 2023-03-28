@@ -1,7 +1,13 @@
 @import 'normalize.css';
 @import 'mdb-ui-kit/css/mdb.min.css';
 @import 'vars.css';
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:wght@400;700;800&family=Tajawal&display=swap');
+/**
+   (!) Добавить в html файлы
+   <link rel="preconnect" href="https://fonts.googleapis.com" />
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
+ */
+/*@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:wght@300;400;600;700;800&family=Tajawal&display=swap');*/
 
 /******* common *******/
 
@@ -70,7 +76,6 @@ section {
   background-color: var(--gray-100);
 }
 /******* page-decoration end *******/
-
 
 /******* pre-footer start *******/
 

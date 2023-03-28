@@ -1,0 +1,24 @@
+/******* hero start *******/
+.history-hero {
+  height: 100vh;
+  background: url('../images/story-hero.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.history-hero-title {
+  font-size: 8rem;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+.history-hero-title2 {
+  padding-left: 5rem;
+}
+
+/* by figma font size is 17px */
+.history-hero-subtitle {
+  width: 100%;
+  max-width: 18.75rem;
+  font-size: 1.0625rem;
+}
+/******* hero end *******/
