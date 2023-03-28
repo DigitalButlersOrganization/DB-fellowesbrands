@@ -25,7 +25,6 @@
 .products-hero__paragraph {
   font-size: 1.063rem;
   max-width: 18.75rem;
-  line-height: 1.2em;
   color: var(--text-white);
   padding: 5rem 0 0 2rem;
 }
@@ -155,6 +154,39 @@
 }
 
 /******* work end *******/
+
+/******* process start *******/
+
+.products-process__container {
+  max-width: 82.5rem;
+  padding: 3.74rem 0 11.875rem;
+}
+
+.products-process__header {
+  display: flex;
+  column-gap: 5rem;
+  row-gap: 1.5rem;
+  flex-wrap: wrap;
+  max-width: 60rem;
+  margin: 0 auto 10rem;
+}
+
+.products-process__heading--xl {
+  font-size: 3rem;
+  line-height: 1.1em;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: var(--eerie-black);
+  max-width: 32.5rem;
+}
+
+.products-process__paragraph {
+  font-size: 1.063rem;
+  max-width: 22.375rem;
+  color: var(--outer-space);
+}
+
+/******* process end *******/
 
 @media (max-width: 1439px) {
   /******* work start *******/

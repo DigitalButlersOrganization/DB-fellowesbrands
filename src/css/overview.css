@@ -516,52 +516,6 @@
 
 /******* care end *******/
 
-/******* pre-footer start *******/
-
-.overview__pre-footer {
-  background-color: var(--pre-footer-color);
-}
-
-.overview__pre-footer-container {
-  padding: 7.5rem 0 10rem;
-  max-width: 71.25rem;
-  text-align: center;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.overview__pre-footer-heading {
-  font-weight: 700;
-  font-size: 3rem;
-  line-height: 1.1em;
-  letter-spacing: 0.01em;
-  color: var(--eerie-black);
-  max-width: 50rem;
-  margin-bottom: 1.5rem;
-}
-
-.overview__pre-footer-paragraph {
-  max-width: 50rem;
-  margin-bottom: 5rem;
-  font-size: 1.125rem;
-  color: var(--outer-space);
-}
-
-.overview__pre-footer-list {
-  display: flex;
-  column-gap: 1rem;
-  justify-content: space-between;
-}
-
-.overview__pre-footer-item {
-  max-width: 24.25rem;
-  width: 100%;
-}
-
-/******* pre-footer end *******/
-
 /******* @media 1439px  start *******/
 
 @media (max-width: 1439px) {
@@ -691,19 +645,6 @@
   }
 
   /******* care end *******/
-
-  /******* pre-footer start *******/
-
-  .overview__pre-footer-container {
-    padding: 7.5rem 1.5rem 10rem;
-  }
-
-  .overview__pre-footer-item img {
-    width: 100%;
-    height: auto;
-  }
-
-  /******* pre-footer end *******/
 }
 
 /******* @media 1439px  end *******/
@@ -959,20 +900,8 @@
   .overview__care-figure--xxl {
     max-height: 28vw;
   }
+
   /******* care start *******/
-
-  /******* pre-footer start *******/
-
-  .overview__pre-footer-list {
-    flex-direction: column;
-    row-gap: 1rem;
-  }
-
-  .overview__pre-footer-item {
-    width: 100%;
-  }
-
-  /******* pre-footer end *******/
 }
 
 /******* @media 768px  end *******/
@@ -1102,23 +1031,6 @@
   }
 
   /******* care end *******/
-
-  /******* pre-footer start *******/
-  .overview__pre-footer-container {
-    padding: 3.125rem 1.5rem;
-  }
-
-  .overview__pre-footer-heading {
-    font-size: 2rem;
-    max-width: 18.75rem;
-  }
-
-  .overview__pre-footer-paragraph {
-    font-size: 0.938rem;
-    margin-bottom: 2rem;
-  }
-
-  /******* pre-footer end *******/
 }
 
 /******* @media 480px  end *******/
