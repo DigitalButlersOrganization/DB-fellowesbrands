@@ -1,8 +1,14 @@
+@import 'core.css';
+
 /******* hero start *******/
-.history-hero {
-  height: 100vh;
-  background: url('../images/story-hero.jpg') no-repeat center;
-  background-size: cover;
+.hero-inner {
+  gap: 5rem;
+}
+
+@media (min-width: 1440px) {
+  .hero-inner {
+    gap: 10rem;
+  }
 }
 
 .history-hero-title {
@@ -15,10 +21,124 @@
   padding-left: 5rem;
 }
 
+@media (max-width: 991px) {
+  .history-hero-title2 {
+    padding-left: 0;
+  }
+}
+
 /* by figma font size is 17px */
 .history-hero-subtitle {
-  width: 100%;
-  max-width: 18.75rem;
-  font-size: 1.0625rem;
+  width: 22.5rem;
+}
+
+@media (max-width: 991px) {
+  .history-hero-subtitle {
+    width: 100%;
+  }
 }
 /******* hero end *******/
+
+/******* story start *******/
+.story-container {
+  width: 100%;
+}
+
+.story-content {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  height: 600px;
+  width: 100%;
+  border: 5px solid red;
+  margin: 0;
+  padding: 0;
+}
+
+.story-content > div {
+  height: 100%;
+  width: 100%;
+  min-width: 100%;
+}
+
+.story-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: 1.125rem;
+  max-width: 720px;
+  margin: 20px auto;
+  position: relative;
+}
+
+.story-nav:after {
+  width: 96%;
+  height: 1px;
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: var(--gray-200);
+  transform: translate(-50%, -50%);
+  z-index: 0;
+}
+
+.story-nav-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+  gap: 0.25rem;
+  position: relative;
+  z-index: 10;
+}
+
+.story-nav-title {
+  display: block;
+  padding: 0.2rem 0.75rem;
+  font-size: 0.725rem;
+  white-space: nowrap;
+  font-weight: 200;
+  color: var(--gray-400);
+  line-height: 1;
+  border-radius: 30px;
+  background: transparent;
+  transition: 0.2s ease-in-out;
+  position: absolute;
+  top: 1.3rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.story-nav-dot {
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 50%;
+  background-color: var(--gray-400);
+  transition: 0.2s ease-in-out;
+}
+
+.story-nav-link.active .story-nav-title {
+  font-size: 1rem;
+  font-weight: 400;
+  background: var(--dark-deep);
+  color: var(--white);
+  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.4);
+}
+
+.story-nav-link.active .story-nav-dot {
+  width: 1rem;
+  height: 1rem;
+  background-color: var(--gold-500);
+}
+
+.story-nav-link-1 {
+}
+
+.story-nav-link-2 {
+}
+
+/******* story end *******/

@@ -10,23 +10,22 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
 
-    <link rel="stylesheet" href="css/core.css" />
     <link rel="stylesheet" href="css/story.css" />
   </head>
   <body>
     <main>
       <!-- HERO START -->
-      <section class="history-hero bg-image d-flex align-items-center">
-        <div class="container-xxl">
-          <div class="d-flex px-5">
-            <div class="w-50">
-              <h1 class="ls-wide text-white text-uppercase history-hero-title">
-                Our
+      <section class="bg-image d-flex align-items-center min-vh-100">
+        <div class="container w-75 position-relative zi-10">
+          <div class="hero-inner d-sm-block d-lg-flex">
+            <div class="d-flex">
+              <h1 class="d-flex flex-column ls-wide text-white text-uppercase history-hero-title">
+                <span>Our</span>
                 <span class="history-hero-title2">Story</span>
               </h1>
             </div>
-            <div class="d-flex px-5">
-              <h2 class="history-hero-subtitle text-white align-self-center lh-base fw-semibold">
+            <div class="d-flex history-hero-subtitle align-self-center">
+              <h2 class="history-hero-subtitle text-white fs-5 lh-base fw-semibold">
                 Fellowes has a rich history marked by creating the products, systems, and spaces where people can do their best work.
                 <br />
                 <br />
@@ -35,13 +34,64 @@
             </div>
           </div>
         </div>
+        <figure class="position-absolute w-100">
+          <img src="images/story-hero.jpg" alt="Out Story" class="w-100 min-vh-100 object-cover" />
+        </figure>
       </section>
       <!-- HERO END -->
 
       <!-- STORY START -->
-      <section class="products__work">
-        <!-- 1917 START -->
-        <!-- 1917 END -->
+      <section class="story" style="padding-bottom: 100px">
+        <div class="container-xxl">
+          <div class="story-container">
+            <!-- story content -->
+            <div class="story-content">
+              <!-- 1917 START -->
+              <div id="_1917">
+                <h2>Section 1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+              <!-- 1917 END -->
+
+              <div id="_1931-1936">
+                <h2>Section 2</h2>
+                <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+
+              <div id="_1941">
+                <h2>Section 3</h2>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              </div>
+            </div>
+            <!-- story nav -->
+            <nav class="story-nav" id="scrollspy-nav">
+              <a class="story-nav-link story-nav-link-1 active" href="#_1917">
+                <span class="story-nav-title">1917</span>
+                <span class="story-nav-dot"></span
+              ></a>
+              <a class="story-nav-link story-nav-link-2" href="#_1931-1936">
+                <span class="story-nav-title">1931-1936</span>
+                <span class="story-nav-dot"></span>
+              </a>
+              <a class="story-nav-link story-nav-link-3" href="#_1941">
+                <span class="story-nav-title">1941</span>
+                <span class="story-nav-dot"></span>
+              </a>
+              <a class="story-nav-link story-nav-link-4" href="#_1941">
+                <span class="story-nav-title">1969-1977</span>
+                <span class="story-nav-dot"></span>
+              </a>
+              <a class="story-nav-link story-nav-link-5" href="#_1941">
+                <span class="story-nav-title">1980-1990</span>
+                <span class="story-nav-dot"></span>
+              </a>
+              <a class="story-nav-link story-nav-link-6" href="#_1941">
+                <span class="story-nav-title">2000-now</span>
+                <span class="story-nav-dot"></span>
+              </a>
+            </nav>
+          </div>
+        </div>
       </section>
       <!-- STORY END -->
 
@@ -69,5 +119,6 @@
     </main>
     <script type="module" src="js/core.js"></script>
     <script type="module" src="js/story.js"></script>
+    <script></script>
   </body>
 </html>

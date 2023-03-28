@@ -1,5 +1,9 @@
 :root {
   --black: #000000;
+  --white: #ffffff;
+
+  --dark-deep: #111111;
+  --dark-light: #333333;
 
   --gray-50: #f8f8f8;
   --gray-100: #f0f0f0;
@@ -11,6 +15,17 @@
   --gray-700: #6a6a6a;
   --gray-800: #5a5a5a;
   --gray-900: #4e4e4e;
+
+  --gold-50: #fffeea;
+  --gold-100: #fffbc5;
+  --gold-200: #fff785;
+  --gold-300: #ffec46;
+  --gold-400: #ffdd1b;
+  --gold-500: #fbba00;
+  --gold-600: #e29100;
+  --gold-700: #bb6702;
+  --gold-800: #984f08;
+  --gold-900: #7c410b;
 
   --text-white: #ffffff;
   --outer-space: #2e343d;
