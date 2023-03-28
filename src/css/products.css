@@ -85,7 +85,7 @@
   column-gap: 2.5rem;
   position: absolute;
   top: 1.5rem;
-  left: 34.9rem
+  left: 34.9rem;
 }
 
 .products-work__content-images-box img {
@@ -135,11 +135,11 @@
   left: 50%;
   transform: translate(-50%, -50%);
   border: none;
-  transition: all linear .2s;
+  transition: all linear 0.2s;
 }
 
 .products-work__video-button:hover {
-  opacity: .8;
+  opacity: 0.8;
   transform: scale3d(1.1);
 }
 
@@ -150,7 +150,6 @@
 .products-work__video-button svg {
   width: 1.375rem;
   height: 1.125rem;
-
 }
 
 /******* work end *******/
@@ -230,9 +229,8 @@
 
   .products-work__content-video-box img {
     height: auto;
-    padding-bottom: .42rem
+    padding-bottom: 0.42rem;
   }
-
 }
 
 @media (max-width: 1279px) {
@@ -255,7 +253,6 @@
     max-width: 33rem;
   }
   /******* hero end *******/
-
 }
 
 @media screen and (max-width: 768px) {
@@ -263,7 +260,7 @@
   .products-hero {
     background: linear-gradient(11.79deg, #000000 0%, rgba(0, 0, 0, 0.4) 80%), url('../images/overview-hero.webp') no-repeat center;
     background-size: cover;
-    align-items: flex-end !important;;
+    align-items: flex-end !important;
   }
   .products-hero__container {
     padding: 5rem 1.5rem 6.25rem;
@@ -284,42 +281,41 @@
   /******* hero end *******/
 
   /******* work start *******/
-  .products-work__heading--xxl  {
+  .products-work__heading--xxl {
     font-size: 6rem;
   }
   /******* work end *******/
-
 }
 
 @media screen and (max-width: 480px) {
   /******* work start *******/
 
-    .products__work {
-      padding: 3.125rem 1.5rem;
-    }
+  .products__work {
+    padding: 3.125rem 1.5rem;
+  }
 
-    .products-work__heading--xxl  {
-      font-size: 3.25rem;
-      top: -2rem;
-      left: 3.8rem;
-    }
+  .products-work__heading--xxl {
+    font-size: 3.25rem;
+    top: -2rem;
+    left: 3.8rem;
+  }
 
-    .products-work__heading--xl {
-      font-size: 3rem;
-      margin-bottom: 1.5rem;
-    }
+  .products-work__heading--xl {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+  }
 
-    .products-work__heading-box {
-      margin-bottom: 3.75rem;
-    }
+  .products-work__heading-box {
+    margin-bottom: 3.75rem;
+  }
 
-    .products-work__content-images-box {
-      row-gap: 1.5rem;
-    }
+  .products-work__content-images-box {
+    row-gap: 1.5rem;
+  }
 
-    .products-work__content-images-box {
-      margin-bottom: 2rem;
-    }
+  .products-work__content-images-box {
+    margin-bottom: 2rem;
+  }
 
   /******* work end *******/
 }
