@@ -1,0 +1,32 @@
+// Global
+$prefix: 'DB-';
+
+// Typography
+$font-family-sans-serif: 'Raleway', sans-serif;
+
+// Headings
+$headings-font-weight: 700;
+$headings-line-height: 1.1em;
+
+$h1-font-size: 8rem;
+$h2-font-size: 4rem;
+$h3-font-size: 3rem;
+$h4-font-size: 1.75rem;
+$h5-font-size: 1.5rem;
+$h6-font-size: 1.25rem;
+
+// Paragraphs
+$lead-font-size-sm: 0.8125rem;
+$lead-font-size: 0.9375rem;
+$lead-font-size-lg: 1.0625rem;
+$lead-font-size-xl: 1.125rem;
+$lead-font-weight: 400;
+
+$display-font-sizes: (
+  1: 10rem,
+  2: 9.375rem,
+  3: 4rem,
+  4: 3.5rem,
+  5: 3rem,
+  6: 2.5rem,
+);
