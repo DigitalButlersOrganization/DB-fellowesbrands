@@ -1,12 +1,12 @@
 import 'mdb-ui-kit';
 
+const navLinks = document.querySelectorAll('.story__nav-link');
+const content = document.querySelector('.story__content');
+
 /**
  * Scrollspy story section
  */
 const scrollSpy = () => {
-  const navLinks = document.querySelectorAll('.story__nav-link');
-  const content = document.querySelector('.story__content');
-
   /* help function */
   function getCurrentSection() {
     const sections = document.querySelectorAll('.story__content > div');
@@ -97,6 +97,29 @@ const scrollSpy = () => {
       currentLink.classList.add('active');
     }
   });
+
+  /* horizontal scroll */
+  content.addEventListener('wheel', (evt) => {
+    const isScrollingDown = evt.deltaY > 0;
+    const isScrollingUp = evt.deltaY < 0;
+
+    if (
+      !(isScrollingDown && content.scrollLeft + content.clientWidth === content.scrollWidth) &&
+      !(isScrollingUp && content.scrollLeft === 0)
+    ) {
+      evt.preventDefault();
+      content.scrollLeft += evt.deltaY;
+    }
+  });
 };
 
 scrollSpy();
+
+/**
+ * Skip story
+ * scroll to last section
+ */
+const skipStoryButton = document.querySelector('.story__skip');
+skipStoryButton.onclick = () => {
+  [...navLinks].at(-1).click();
+};
