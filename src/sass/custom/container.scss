@@ -1,0 +1,7 @@
+.container {
+  @each $name, $size in $container-max-widths {
+    &-#{$name} {
+      max-width: $size;
+    }
+  }
+}

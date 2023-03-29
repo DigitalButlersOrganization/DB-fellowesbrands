@@ -1,0 +1,11 @@
+.lead {
+  &-sm {
+    font-size: $lead-font-size-sm;
+  }
+  &-lg {
+    font-size: $lead-font-size-lg;
+  }
+  &-xl {
+    font-size: $lead-font-size-xl;
+  }
+}
