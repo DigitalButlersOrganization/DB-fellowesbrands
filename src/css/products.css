@@ -159,7 +159,7 @@
 
 .products-process__container {
   max-width: 82.5rem;
-  padding: 3.74rem 0 11.875rem;
+  padding: 3.74rem 0 6.25rem;
 }
 
 .products-process__header {
@@ -285,6 +285,29 @@
 
 /******* process end *******/
 
+/******* DISIGN START *******/
+
+.disign-text-span {
+  font-size: 3.36vw;
+  line-height: 1em;
+}
+
+@media (min-width: 1920px) {
+  .disign-text-span {
+    font-size: 3rem;
+    line-height: 1em;
+    font-size: 2.5vw;
+  }
+}
+@media (max-width: 480px) {
+  .disign-text-span {
+    font-size: 1rem;
+  }
+}
+/******* DISIGN END *******/
+
+
+
 @media (max-width: 1439px) {
   /******* work start *******/
 
@@ -333,7 +356,7 @@
    /******* process start *******/
 
   .products-process__container {
-    padding: 3.74rem 1.5rem 11.875rem;
+    padding: 3.74rem 1.5rem 6.25rem;
   }
 
   /******* process end *******/
