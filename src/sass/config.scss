@@ -1,6 +1,17 @@
 // Global
 $prefix: 'DB-';
 
+// Colors
+$cyan: #5C95CD;
+$yellow: #FBBA00;
+
+$primary: $cyan;
+$secondary: #2E343D;
+
+$dark: #16191E;
+$light: #F6F5F3;
+
+// Media
 $grid-breakpoints: (
   xs: 0,
   sm: 30em,
@@ -39,6 +50,15 @@ $display-font-sizes: (
   5: 3rem,
   6: 2.5rem,
 );
+
+// Buttons
+$input-btn-padding-y: 0.5rem;
+$input-btn-padding-x: 1rem;
+$input-btn-font-size: 1.0625rem;
+$input-btn-line-height: 1.5;
+
+$btn-font-weight: 700;
+
 
 // Layout
 
