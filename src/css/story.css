@@ -1,50 +1,51 @@
 @import 'core.css';
 
 /******* hero start *******/
-.hero-inner {
+.story-hero__inner {
   gap: 5rem;
 }
 
 @media (min-width: 1440px) {
-  .hero-inner {
+  .story-hero__inner {
     gap: 10rem;
   }
 }
 
-.history-hero-title {
+.story-hero__title {
   font-size: 8rem;
   font-weight: 600;
   line-height: 1.1;
 }
 
-.history-hero-title2 {
+.story-hero__title2 {
   padding-left: 5rem;
 }
 
 @media (max-width: 991px) {
-  .history-hero-title2 {
+  .story-hero__title2 {
     padding-left: 0;
   }
 }
 
 /* by figma font size is 17px */
-.history-hero-subtitle {
+.story-hero__subtitle {
   width: 22.5rem;
 }
 
 @media (max-width: 991px) {
-  .history-hero-subtitle {
+  .story-hero__subtitle {
     width: 100%;
   }
 }
 /******* hero end *******/
 
 /******* story start *******/
-.story-container {
+/******* story content start *******/
+.story__container {
   width: 100%;
 }
 
-.story-content {
+.story__content {
   display: flex;
   flex-direction: row;
   overflow-x: scroll;
@@ -55,13 +56,24 @@
   padding: 0;
 }
 
-.story-content > div {
+.story__content > div {
   height: 100%;
-  width: 100%;
   min-width: 100%;
 }
 
-.story-nav {
+.story__content-inner {
+  /*display: flex;*/
+  /*height: 100%;*/
+}
+
+.story__content-part {
+  /*background: #6bb7bb;*/
+  /*height: 100%;*/
+  /*min-width: 100vw;*/
+}
+/******* story content end *******/
+/******* story nav start *******/
+.story__nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -74,7 +86,7 @@
   position: relative;
 }
 
-.story-nav:after {
+.story__nav:after {
   width: 96%;
   height: 1px;
   content: '';
@@ -86,7 +98,7 @@
   z-index: 0;
 }
 
-.story-nav-link {
+.story__nav-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -96,7 +108,7 @@
   z-index: 10;
 }
 
-.story-nav-title {
+.story__nav-title {
   display: block;
   padding: 0.2rem 0.75rem;
   font-size: 0.725rem;
@@ -113,7 +125,7 @@
   transform: translateX(-50%);
 }
 
-.story-nav-dot {
+.story__nav-dot {
   width: 0.75rem;
   height: 0.75rem;
   border-radius: 50%;
@@ -121,7 +133,7 @@
   transition: 0.2s ease-in-out;
 }
 
-.story-nav-link.active .story-nav-title {
+.story__nav-link.active .story__nav-title {
   font-size: 1rem;
   font-weight: 400;
   background: var(--dark-deep);
@@ -129,16 +141,34 @@
   box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.4);
 }
 
-.story-nav-link.active .story-nav-dot {
+.story__nav-link.active .story__nav-dot {
   width: 1rem;
   height: 1rem;
   background-color: var(--gold-500);
 }
 
-.story-nav-link-1 {
+.story__nav-link-1 {
+  margin-right: 9.375rem;
 }
 
-.story-nav-link-2 {
+.story__nav-link-2 {
+  margin-right: 3.75rem;
 }
 
+.story__nav-link-3 {
+  margin-right: 9.875rem;
+}
+
+.story__nav-link-4 {
+  margin-right: 5rem;
+}
+
+.story__nav-link-5 {
+  margin-right: 9rem;
+}
+
+.story__nav-link-6 {
+  /*margin-left: auto;*/
+}
+/******* story nav end *******/
 /******* story end *******/

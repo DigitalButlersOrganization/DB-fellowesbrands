@@ -4,12 +4,12 @@ import 'mdb-ui-kit';
  * Scrollspy story section
  */
 const scrollSpy = () => {
-  const navLinks = document.querySelectorAll('.story-nav-link');
-  const content = document.querySelector('.story-content');
+  const navLinks = document.querySelectorAll('.story__nav-link');
+  const content = document.querySelector('.story__content');
 
   /* help function */
   function getCurrentSection() {
-    const sections = document.querySelectorAll('.story-content > div');
+    const sections = document.querySelectorAll('.story__content > div');
 
     for (let i = 0; i < sections.length; i++) {
       const section = sections[i];
@@ -91,7 +91,7 @@ const scrollSpy = () => {
     }
 
     if (currentSection !== null) {
-      const currentLink = document.querySelector(`.story-nav-link[href="#${currentSection.id}"]`);
+      const currentLink = document.querySelector(`.story__nav-link[href="#${currentSection.id}"]`);
       currentLink.classList.add('active');
     }
   });

@@ -17,15 +17,15 @@
       <!-- HERO START -->
       <section class="bg-image d-flex align-items-center min-vh-100">
         <div class="container w-75 position-relative zi-10">
-          <div class="hero-inner d-sm-block d-lg-flex">
+          <div class="story-hero__inner d-sm-block d-lg-flex">
             <div class="d-flex">
-              <h1 class="d-flex flex-column ls-wide text-white text-uppercase history-hero-title">
+              <h1 class="story-hero__title d-flex flex-column ls-wide text-white text-uppercase">
                 <span>Our</span>
-                <span class="history-hero-title2">Story</span>
+                <span class="story-hero__title2">Story</span>
               </h1>
             </div>
-            <div class="d-flex history-hero-subtitle align-self-center">
-              <h2 class="history-hero-subtitle text-white fs-5 lh-base fw-semibold">
+            <div class="d-flex align-self-center">
+              <h2 class="story-hero__subtitle text-white fs-5 lh-base fw-semibold">
                 Fellowes has a rich history marked by creating the products, systems, and spaces where people can do their best work.
                 <br />
                 <br />
@@ -42,55 +42,94 @@
 
       <!-- STORY START -->
       <section class="story" style="padding-bottom: 100px">
-        <div class="container-xxl">
-          <div class="story-container">
-            <!-- story content -->
-            <div class="story-content">
-              <!-- 1917 START -->
-              <div id="_1917">
-                <h2>Section 1</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              </div>
-              <!-- 1917 END -->
-
-              <div id="_1931-1936">
-                <h2>Section 2</h2>
-                <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              </div>
-
-              <div id="_1941">
-                <h2>Section 3</h2>
-                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div class="story__container">
+          <!-- story content -->
+          <div class="story__content">
+            <!-- 1917 START -->
+            <div id="_1917">
+              <div class="story__content-inner">
+                <div class="story__content-part">
+                  <h2>Part #1 1917</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="story__content-part">
+                  <h2>Part #2 1917</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
               </div>
             </div>
-            <!-- story nav -->
-            <nav class="story-nav" id="scrollspy-nav">
-              <a class="story-nav-link story-nav-link-1 active" href="#_1917">
-                <span class="story-nav-title">1917</span>
-                <span class="story-nav-dot"></span
-              ></a>
-              <a class="story-nav-link story-nav-link-2" href="#_1931-1936">
-                <span class="story-nav-title">1931-1936</span>
-                <span class="story-nav-dot"></span>
-              </a>
-              <a class="story-nav-link story-nav-link-3" href="#_1941">
-                <span class="story-nav-title">1941</span>
-                <span class="story-nav-dot"></span>
-              </a>
-              <a class="story-nav-link story-nav-link-4" href="#_1941">
-                <span class="story-nav-title">1969-1977</span>
-                <span class="story-nav-dot"></span>
-              </a>
-              <a class="story-nav-link story-nav-link-5" href="#_1941">
-                <span class="story-nav-title">1980-1990</span>
-                <span class="story-nav-dot"></span>
-              </a>
-              <a class="story-nav-link story-nav-link-6" href="#_1941">
-                <span class="story-nav-title">2000-now</span>
-                <span class="story-nav-dot"></span>
-              </a>
-            </nav>
+            <!-- 1917 END -->
+
+            <!-- 1931-1946 START -->
+            <div id="_1931-1936">
+              <div class="story__content-inner">
+                <div class="story__content-part">
+                  <h2>Part #1 1931-1946</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="story__content-part">
+                  <h2>Part #2 1931-1946</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+              </div>
+            </div>
+            <!-- 1931-1946 END -->
+
+            <!-- 1941 START -->
+            <div id="_1941">
+              <h2>1941</h2>
+              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <!-- 1941 END -->
+
+            <!-- 1969-1977 START -->
+            <div id="_1969-1977">
+              <h2>1969-1977</h2>
+              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <!-- 1969-1977 END -->
+
+            <!-- 1980-1990 START -->
+            <div id="_1980-1990">
+              <h2>1980-1990</h2>
+              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <!-- 1980-1990 START -->
+
+            <!-- 2000-now START -->
+            <div id="_2000-now">
+              <h2>2000-now</h2>
+              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <!-- 2000-now END -->
           </div>
+          <!-- story nav -->
+          <nav class="story__nav" id="scrollspy-nav">
+            <a class="story__nav-link story__nav-link-1 active" href="#_1917">
+              <span class="story__nav-title">1917</span>
+              <span class="story__nav-dot"></span
+            ></a>
+            <a class="story__nav-link story__nav-link-2" href="#_1931-1936">
+              <span class="story__nav-title">1931-1936</span>
+              <span class="story__nav-dot"></span>
+            </a>
+            <a class="story__nav-link story__nav-link-3" href="#_1941">
+              <span class="story__nav-title">1941</span>
+              <span class="story__nav-dot"></span>
+            </a>
+            <a class="story__nav-link story__nav-link-4" href="#_1969-1977">
+              <span class="story__nav-title">1969-1977</span>
+              <span class="story__nav-dot"></span>
+            </a>
+            <a class="story__nav-link story__nav-link-5" href="#_1980-1990">
+              <span class="story__nav-title">1980-1990</span>
+              <span class="story__nav-dot"></span>
+            </a>
+            <a class="story__nav-link story__nav-link-6" href="#_2000-now">
+              <span class="story__nav-title">2000-now</span>
+              <span class="story__nav-dot"></span>
+            </a>
+          </nav>
         </div>
       </section>
       <!-- STORY END -->
