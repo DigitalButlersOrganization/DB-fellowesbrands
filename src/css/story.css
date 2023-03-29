@@ -52,7 +52,6 @@
   position: absolute;
   top: 2.25rem;
   right: 3rem;
-  border: none;
   background: none;
   color: var(--gray-400);
   border: 1px dashed transparent;
@@ -70,9 +69,19 @@
   overflow-x: scroll;
   height: 600px;
   width: auto;
-  /*border: 5px solid red;*/
   margin: 0;
   padding: 0;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.story__content::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.story__content {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
 .story__content-box {
