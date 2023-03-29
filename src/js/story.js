@@ -14,7 +14,8 @@ const scrollSpy = () => {
     for (let i = 0; i < sections.length; i++) {
       const section = sections[i];
       const rect = section.getBoundingClientRect();
-      if (rect.left >= 0 && rect.right <= window.innerWidth) {
+
+      if (rect.x + rect.width >= rect.width * 0.15) {
         return section;
       }
     }
@@ -29,8 +30,9 @@ const scrollSpy = () => {
 
       const targetId = link.getAttribute('href');
       const targetElement = document.querySelector(targetId);
+      const part = targetElement.querySelector('.story__content-part:first-child');
 
-      const targetOffsetLeft = targetElement.offsetLeft - content.offsetLeft - (content.offsetWidth - targetElement.offsetWidth) / 2;
+      const targetOffsetLeft = part.offsetLeft - content.offsetLeft - (content.offsetWidth - part.offsetWidth) / 2 - 10;
 
       content.scrollTo({
         left: targetOffsetLeft,
