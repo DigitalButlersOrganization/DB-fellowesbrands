@@ -1,4 +1,3 @@
-
 const initVideo = () => {
   const video = document.querySelector("#products-work__video");
   const videoBTN = document.querySelector(".products-work__video-button");
