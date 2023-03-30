@@ -2,7 +2,7 @@
 
 .products-hero {
   min-height: 100vh;
-  background: linear-gradient(291.63deg, #000000ed -15%, rgba(0, 0, 0, 0.6) 120%), url('../images/overview-hero.webp') no-repeat center;
+  background: linear-gradient(291.63deg, #000000ed -15%, rgba(0, 0, 0, 0.6) 120%), url('../../images/overview-hero.webp') no-repeat center;
   background-size: cover;
 }
 
@@ -460,7 +460,7 @@
 @media screen and (max-width: 768px) {
   /******* hero start *******/
   .products-hero {
-    background: linear-gradient(11.79deg, #000000 0%, rgba(0, 0, 0, 0.4) 80%), url('../images/overview-hero.webp') no-repeat center;
+    background: linear-gradient(11.79deg, #000000 0%, rgba(0, 0, 0, 0.4) 80%), url('../../images/overview-hero.webp') no-repeat center;
     background-size: cover;
     align-items: flex-end !important;
   }
