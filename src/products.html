@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
     <link rel="stylesheet" href="css/core.css" />
+    <link rel="stylesheet" href="sass/core.scss" />
     <link rel="stylesheet" href="css/products.css" />
   </head>
   <body>
@@ -24,8 +25,8 @@
       <section class="products__work">
         <div class="container-xxl products-work__container">
           <div class="products-work__heading-box">
-            <h2 class="products-work__heading--xxl text-uppercase">Work</h2>
-            <h3 class="products-work__heading--xl">We’re shaping the world of work. And the world of work shapes us.</h3>
+            <div class="products-work__heading--xxl text-uppercase">Work</div>
+            <h2 class="h2 products-work__heading--xl">We’re shaping the world of work. And the world of work shapes us.</h2>
             <p class="producnts__work-paragraph">
               Fellowes has always been focused on people, and the work they do. More specifically, how they do it, and where they do it.
               Even from our first product innovations, we’ve brought new efficiency, comfort, and safety to the spaces where work happens.
@@ -62,15 +63,143 @@
       <section class="products-process">
         <div class="container-xxl products-process__container">
           <div class="products-process__header">
-            <h3 class="products-process__heading--xl">Integrated In-House Product Development</h3>
+            <h2 class="h2 products-process__heading--xl">Integrated In-House Product Development</h2>
             <p class="products-process__paragraph">
               Every product undergoes a highly regimented and robust process to ensure it meets Fellowes standards. Learn more about how we
               put products into the world.
             </p>
           </div>
+          <div class="products-process__accordion">
+            <ul class="products-process__accordion-list">
+              <li class="products-process__accordion-item js--active">
+                <div class="products-process__accordion-item-heading-box">
+                  <h5 class="text-uppercase">Ideation</h5>
+                </div>
+                <div class="products-process__accordion-item-content">
+                  <img class="products-process__accordion-item-image" src="./images/stylish office.webp" alt="Stylish office">
+                  <div class="position-relative">
+                    <span class="products-process__accordion-heading-xxl">
+                      Pro<span class="text-nowrap">cess</span>
+                    </span>
+                    <p class="pb-3">
+                      The first stage of our product design process is marked by conceptual ideation. We ask: “How can we think differently about new innovations, processes, systems, or environments? Where is there room for improvement or simplification? How can a category be redefined? Even better, how can we create a new one altogether?”
+                    </p>
+                    <p>
+                      It is only through rigorous exploration that we can arrive at new solutions that move worklife forward.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="products-process__accordion-item">
+                <div class="products-process__accordion-item-heading-box">
+                  <h5 class="text-uppercase">Design</h5>
+                </div>
+                <div class="products-process__accordion-item-content">
+                  <img class="products-process__accordion-item-image" src="./images/staff.webp" alt="Stylish office">
+                  <div class="position-relative">
+                    <span class="products-process__accordion-heading-xxl">
+                      Pro<span class="text-nowrap">cess</span>
+                    </span>
+                    <p class="pb-3">
+                      The first stage of our product design process is marked by conceptual ideation. We ask: “How can we think differently about new innovations, processes, systems, or environments? Where is there room for improvement or simplification? How can a category be redefined? Even better, how can we create a new one altogether?”
+                    </p>
+                    <p>
+                      It is only through rigorous exploration that we can arrive at new solutions that move worklife forward.
+                    </p>
+                  </div>
+              </li>
+              <li class="products-process__accordion-item">
+                <div class="products-process__accordion-item-heading-box">
+                  <h5 class="text-uppercase">Manufacturing</h5>
+                </div>
+                <div class="products-process__accordion-item-content">
+                  <img class="products-process__accordion-item-image" src="./images/car.webp" alt="Stylish office">
+                  <div class="position-relative">
+                    <h2 class="products-process__accordion-heading-xxl">
+                      Pro<span class="text-nowrap">cess</span>
+                    </h2>
+                    <p class="pb-3">
+                      The first stage of our product design process is marked by conceptual ideation. We ask: “How can we think differently about new innovations, processes, systems, or environments? Where is there room for improvement or simplification? How can a category be redefined? Even better, how can we create a new one altogether?”
+                    </p>
+                    <p>
+                      It is only through rigorous exploration that we can arrive at new solutions that move worklife forward.
+                    </p>
+                  </div>
+              </li>
+              <li class="products-process__accordion-item">
+                <div class="products-process__accordion-item-heading-box">
+                  <h5 class="text-uppercase">Support</h5>
+                </div>
+                <div class="products-process__accordion-item-content">
+                  <img class="products-process__accordion-item-image" src="./images/Teamwork-2.webp" alt="Stylish office">
+                  <div class="position-relative">
+                    <h2 class="products-process__accordion-heading-xxl">
+                      Pro<span class="text-nowrap">cess</span>
+                    </h2>
+                    <p class="pb-3">
+                      The first stage of our product design process is marked by conceptual ideation. We ask: “How can we think differently about new innovations, processes, systems, or environments? Where is there room for improvement or simplification? How can a category be redefined? Even better, how can we create a new one altogether?”
+                    </p>
+                    <p>
+                      It is only through rigorous exploration that we can arrive at new solutions that move worklife forward.
+                    </p>
+                  </div>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
       <!-- PROCESS END -->
+      <!-- DISIGN START -->
+      <section class="bg-black px-3 pt-5 pb-5 text-white">
+        <h2 class="text-white w-100 text-center mt-5 mb-4">
+          Design Awards
+        </h2>
+        <p class="w-100 text-center mb-5">
+          Fellowes has been honored by over 200 design awards cross more than 25 different countries.
+        </p>
+        <div class="d-flex flex-wrap w-100 flex-xxl-row flex-column text-center justify-content-evenly text-uppercase mb-5">
+          <span class="disign-text-span w-100 mb-3">
+            Tomorrows Health and Safety Award
+          </span>
+          <span class="disign-text-span mb-3">
+            NORTH AMERICAN PRODUCT AWARDS
+          </span>
+          <span class="disign-text-span mb-3">
+            BOSS AWARDS
+          </span>
+          <span class="disign-text-span mb-3">
+            FX DESIGN AWARDS
+          </span>
+          <span class="disign-text-span mb-3">
+            GOOD DESIGN AWARDS
+          </span>
+          <span class="disign-text-span mb-3">
+            ADEX
+          </span>
+          <span class="disign-text-span mb-3">
+            INTERIOR DESIGN HIP AWARDS
+          </span>
+          <span class="disign-text-span mb-3">
+            FIRA INTERNATIONAL DESIGN AWARDS
+          </span>
+          <span class="disign-text-span mb-3">
+            DESIGN JOURNAL BEST OF 2021
+          </span>
+          <span class="disign-text-span text-white w-lg-100 mb-3">
+            BENELUX AWARDS
+          </span>
+          <span class="disign-text-span text-white w-lg-100 mb-3">
+            GOOD DESIGN AWARDS
+          </span>
+          <span class="disign-text-span text-white w-lg-100 mb-3">
+            SPARK
+          </span>
+          <span class="disign-text-span text-white w-lg-100 mb-3">
+            Industrial Designers Society of America
+          </span>
+        </div>
+      </section>
+      <!-- DISIGN END -->
       <!-- PRE-FOOTER START -->
       <section class="pre-footer">
         <div class="pre-footer__container">
@@ -93,7 +222,8 @@
       </section>
       <!-- PRE-FOOTER END -->
     </main>
-    <script type="module" src="js/core.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <script type="module" src="js/products.js"></script>
+
   </body>
 </html>
