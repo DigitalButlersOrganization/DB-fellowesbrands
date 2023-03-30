@@ -52,6 +52,11 @@
 }
 
 @media (max-width: 576px) {
+  .hero {
+    background: linear-gradient(299.37deg, #00000051 -22.18%, rgba(0, 0, 0, 0) 59.01%), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images//global vision.webp');
+    background-size: cover;
+    background-position: 30%;
+  }
   .tabs-list-item {
     width: 100%;
   }
@@ -60,6 +65,11 @@
 @media screen and (max-width: 480px) {
   .h1 {
     font-size: 2.5rem;
+  }
+  .nav-item,
+  .nav-link {
+    width: 100% ;
+    max-width: 16.25rem;
   }
 }
 
