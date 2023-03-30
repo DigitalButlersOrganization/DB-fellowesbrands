@@ -7,6 +7,7 @@ const pages = [
   { name: 'global-vision', path: resolve(__dirname, './src/global-vision.html') },
   { name: 'giving', path: resolve(__dirname, './src/giving.html') },
   { name: 'sustainable', path: resolve(__dirname, './src/sustainable.html') },
+  { name: 'awards', path: resolve(__dirname, './src/awards.html') },
 ];
 
 export default pages;

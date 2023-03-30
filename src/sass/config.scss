@@ -1,15 +1,23 @@
 // Global
 $prefix: 'DB-';
+$enable-dark-mode: false;
+$enable-grid-classes: true;
+$enable-cssgrid: true;
 
 // Colors
-$cyan: #5C95CD;
-$yellow: #FBBA00;
+$cyan: #5c95cd;
+$yellow: #fbba00;
 
 $primary: $cyan;
-$secondary: #2E343D;
+$secondary: #2e343d;
 
-$dark: #16191E;
-$light: #F6F5F3;
+$dark: #16191e;
+$light: #f6f5f3;
+
+$border-color: rgba(22, 25, 30, 0.4);
+
+$box-shadow-lg: 0px 3px 20px rgba(0, 0, 0, 0.06);
+$card-spacer-x: clamp(1rem, 1.5vw, 1.5rem);
 
 // Media
 $grid-breakpoints: (
@@ -28,9 +36,9 @@ $font-family-sans-serif: 'Raleway', sans-serif;
 $headings-font-weight: 700;
 $headings-line-height: 1.1em;
 
-$h1-font-size: 8rem;
-$h2-font-size: 4rem;
-$h3-font-size: 3rem;
+$h1-font-size: clamp(2.5rem, 12vw, 8rem);
+$h2-font-size: clamp(2rem, 6vw, 4rem);
+$h3-font-size: clamp(2rem, 6vw, 3rem);
 $h4-font-size: 1.75rem;
 $h5-font-size: 1.5rem;
 $h6-font-size: 1.25rem;
@@ -43,8 +51,9 @@ $lead-font-size-xl: 1.125rem;
 $lead-font-weight: 400;
 
 $display-font-sizes: (
-  1: 10rem,
-  2: 9.375rem,
+  0: clamp(4.5rem, 20vw, 16.25rem),
+  1: clamp(4rem, 16vw, 10rem),
+  2: clamp(3.25rem, 14vw, 9.375rem),
   3: 4rem,
   4: 3.5rem,
   5: 3rem,
@@ -59,6 +68,8 @@ $input-btn-line-height: 1.5;
 
 $btn-font-weight: 700;
 
+$nav-link-font-weight: $btn-font-weight;
+$nav-link-font-size: $input-btn-font-size;
 
 // Layout
 
