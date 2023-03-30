@@ -36,7 +36,7 @@
   </section>
   <!-- HERO END -->
   <!-- TABS LOCATIONS START -->
-  <section class="bg-white pb-5">
+  <section class="locations-tabs-section bg-white pb-5 ">
     <div class="position-relative container-xxl py-xl-5 py-lg-5 py-5">
       <div class="position-absolute top-0 start-0 w-100">
         <h2 class="locations-decorate-heading text-uppercase text-center d-block">Locations</h2>
@@ -49,10 +49,10 @@
       </div>
 
       <!-- Tabs start -->
-      <div class="mt-5 pt-5">
+      <div class="mt-5 pt-1 pt-xl-5 pt-lg-5">
         <div class="pb-lg-5">
-          <div class="container-xxl d-flex flex-column" id="countries-tabs">
-            <div class="d-block mb-4">
+          <div class="container d-flex flex-column" id="countries-tabs">
+            <div class="d-none d-xl-block d-lg-block mb-4">
               <!-- Tabs navs -->
               <ul class="nav nav-tabs d-flex justify-content-center gap-3 row-gap-1" id="v-tabs-tab" role="tablist">
                 <li class="nav-item lead lead-lg text-center">
@@ -98,7 +98,36 @@
               </ul>
               <!-- Tab navs -->
             </div>
-            <div class="d-block pt-5">
+
+            <!-- Tab dropdown start -->
+            <div class="dropdown-tabs d-block d-xl-none d-lg-none
+            position-fixed z-3 start-50 bottom-0
+            translate-middle-x pb-3">
+              <div class="dropdown dropup">
+                <button class="dropdown-toggle py-2 px-4 text-uppercase lead lead-sm"
+                        type="button" id="dropdownMenuButton"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        North America
+                </button>
+                <ul class="dropdown-menu w-100 my-3 py-0 overflow-hidden" data-name="countries" aria-labelledby="dropdownMenuButton">
+                  <li>
+                    <button class="dropdown-item py-2 text-center text-uppercase active" data-value="#v-tabs-north">North America</button>
+                  </li>
+                  <li>
+                    <button class="dropdown-item py-2 text-center text-uppercase" data-value="#v-tabs-south">South America</button>
+                  </li>
+                  <li>
+                    <button class="dropdown-item py-2 text-center text-uppercase" data-value="#v-tabs-asia">Asia</button>
+                  </li>
+                  <li>
+                    <button class="dropdown-item py-2 text-center text-uppercase" data-value="#v-tabs-europe">Europe</button>
+                  </li>
+                </ul>
+              </div>
+              <!-- Tab dropdown end-->
+            </div>
+
+            <div class="d-block pt-1 pt-xl-5 pt-lg-5">
               <!-- Tabs content start -->
               <div class="tab-content gap-1" id="v-tabs-tabContent">
                 <div class="tab-pane fade show active" id="v-tabs-north" role="tabpanel" aria-labelledby="v-tabs-north-tab">
@@ -845,13 +874,13 @@
       </p>
       <ul class="pre-footer__list">
         <li class="pre-footer__item">
-          <img src="./images/family-card.webp" alt="Family card image" />
+          <img src="./images/family-card.webp" alt="Family card image"/>
         </li>
         <li class="pre-footer__item">
-          <img src="./images/give-card.webp" alt="Give card image" />
+          <img src="./images/give-card.webp" alt="Give card image"/>
         </li>
         <li class="pre-footer__item">
-          <img src="./images/earth-card.webp" alt="Earth card image" />
+          <img src="./images/earth-card.webp" alt="Earth card image"/>
         </li>
       </ul>
     </div>
