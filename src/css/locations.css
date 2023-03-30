@@ -1,0 +1,42 @@
+/******* hero start *******/
+.locations-hero {
+  background-image: linear-gradient(299.37deg, #000000 -22.18%, rgba(0, 0, 0, 0) 59.01%),
+  linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/hero-global-footprint.webp');
+}
+
+.locations-decorate-heading {
+  font-weight: 800;
+  font-size: 150px;
+  line-height: 150%;
+  color: var(--text-white);
+  letter-spacing: 0.2em;
+  -webkit-text-stroke: 1px var(--text-border-color);
+  z-index: -1;
+  overflow: hidden;
+}
+
+.locations .nav-tabs {
+  border: none !important;
+}
+
+.locations .nav-link {
+  text-transform: unset !important;
+  border: 1px solid rgba(22, 25, 30, 0.4) !important;
+  border-radius: .5rem !important;
+  font-weight: 600;
+  transition: all linear 300ms;
+}
+
+.locations .nav-link:hover {
+  opacity: .8;
+}
+
+.locations .nav-link.active {
+  background-color: #5C95CD !important;
+  border-color: transparent !important;
+  color: var(--text-white) !important;
+}
+
+.locations .countries-item{
+  border-bottom: 1px solid var(--gray-200);
+}
