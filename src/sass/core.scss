@@ -40,9 +40,14 @@
 @import 'bootstrap/scss/offcanvas';
 @import 'bootstrap/scss/placeholders';
 
+@import 'custom/main';
 @import 'custom/lead';
 @import 'custom/container';
 @import 'custom/button';
+@import 'custom/section';
+@import 'custom/nav-pills';
+@import 'custom/nav-tabs';
+@import 'custom/text-decoration';
 
 // Helpers
 @import 'bootstrap/scss/helpers';

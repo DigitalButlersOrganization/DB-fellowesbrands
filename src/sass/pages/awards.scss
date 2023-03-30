@@ -1,0 +1,74 @@
+.page-decoration {
+  position: fixed;
+}
+
+.awards-page {
+  &__hero {
+    display: grid;
+    place-items: end center;
+    padding-block: 5.625rem;
+    color: var(--DB-body-bg);
+    min-height: 100vh;
+    background-color: var(--DB-body-color);
+    background-image: url('../../images/awards-hero-background.webp'),
+      linear-gradient(225deg, rgba(68, 66, 71, 1) 0%, rgba(16, 15, 16, 1) 100%);
+    background-size: cover;
+    background-position: center;
+
+    @media screen and (min-width: 48em) {
+      place-items: center;
+      padding-block: 10rem;
+    }
+
+    &-h1 {
+      margin-bottom: 0.3125em;
+    }
+
+    &-span {
+      @media screen and (min-width: 48em) {
+        display: block;
+        text-indent: 1ch;
+      }
+    }
+
+    &-lead {
+      max-width: 55ch;
+    }
+  }
+  &__awards {
+    &-text-decoration {
+      position: absolute;
+      top: 0;
+      text-align: center;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      font-weight: 800;
+      line-height: 1.3em;
+      z-index: -1;
+    }
+
+    &-group-heading {
+      margin-bottom: -0.25em;
+    }
+    &-grid {
+      gap: 1.5rem;
+      @media screen and (min-width: 48em) {
+        gap: 3rem;
+      }
+    }
+
+    &-card {
+      border: none;
+      border-radius: 0;
+    }
+    &-image {
+      max-width: calc(100% - min(4rem, 4vw));
+      margin: 2rem auto;
+      object-fit: contain;
+    }
+    &-body {
+      border-top: 1px solid var(--DB-gray-200);
+      padding-bottom: clamp(1.5rem, 2.75vw, 2.75rem);
+    }
+  }
+}
