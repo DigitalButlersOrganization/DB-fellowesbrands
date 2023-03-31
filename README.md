@@ -11,3 +11,7 @@
 
 ## #3 Format (prettier + autoprefixer) 
 `make format` | `make format` | `yarn format`
+
+## Notes
+
+[Raleway Font (Google)](https://fonts.google.com/specimen/Raleway?query=Raleway)
