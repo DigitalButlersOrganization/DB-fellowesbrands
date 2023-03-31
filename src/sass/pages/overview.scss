@@ -2,7 +2,7 @@
 
 .overview__hero {
   min-height: 100vh;
-  background: linear-gradient(51.52deg, #000000ed -0%, rgba(0, 0, 0, 0.6) 120%), url('../images/overview-hero.webp') no-repeat center;
+  background: linear-gradient(51.52deg, #000000ed -0%, rgba(0, 0, 0, 0.6) 120%), url('../../images/overview-hero.webp') no-repeat center;
   background-size: cover;
 }
 
@@ -172,15 +172,15 @@
 }
 
 .overview__family-item .icon-1 {
-  background: url('../images/svg/1.svg') no-repeat center;
+  background: url('../../images/svg/1.svg') no-repeat center;
 }
 
 .overview__family-item .icon-2 {
-  background: url('../images/svg/2.svg') no-repeat center;
+  background: url('../../images/svg/2.svg') no-repeat center;
 }
 
 .overview__family-item .icon-3 {
-  background: url('../images/svg/3.svg') no-repeat center;
+  background: url('../../images/svg/3.svg') no-repeat center;
 }
 
 .overview__family-item-heading {
@@ -769,7 +769,7 @@
 @media screen and (max-width: 768px) {
   /******* hero start *******/
   .overview__hero {
-    background: linear-gradient(11.79deg, #000000 0%, rgba(0, 0, 0, 0.4) 80%), url('../images/overview-hero.webp') no-repeat center;
+    background: linear-gradient(11.79deg, #000000 0%, rgba(0, 0, 0, 0.4) 80%), url('../../images/overview-hero.webp') no-repeat center;
     background-size: cover;
   }
   .overview__hero-container {

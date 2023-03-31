@@ -1,6 +1,4 @@
-@import 'normalize.css';
-@import 'mdb-ui-kit/css/mdb.min.css';
-@import 'vars.css';
+@import 'vars.scss';
 /**
    (!) Добавить в html файлы
    <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -12,7 +10,7 @@
 /******* common *******/
 
 body {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-size: 0.938rem;
   line-height: 1.5em;
   overflow-x: hidden;
