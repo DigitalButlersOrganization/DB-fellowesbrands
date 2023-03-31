@@ -47,6 +47,40 @@
   color: #5C95CD;
 }
 
+.impact-decoration,
+.strategy-decoration {
+  letter-spacing: 0.1em;
+  font-weight: 800;
+  position: absolute;
+  left: 2.5%;
+  transform: translateY(-67%);
+  z-index: -1;
+}
+
+.strategy-image {
+  left: 6.8rem;
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.impact-bg {
+  background-color: var(--DB-light);
+}
+
+.impact-decoration {
+  left: 50%;
+  transform: translate(-50%, -67%);
+  color: var(--DB-light);
+}
+
+@media screen and (max-width: 1439px) {
+  .strategy-image {
+    position: static;
+  }
+}
+
 @media screen and (max-width: 991px) {
   .hero .h1 .text-nowrap {
     margin-left: 0;
@@ -63,5 +97,8 @@
   }
   .btn-group.dropup {
     display: flex;
+  }
+  .difference-decoration {
+    font-size: 3.25rem;
   }
 }
