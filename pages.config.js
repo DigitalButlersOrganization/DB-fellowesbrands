@@ -10,7 +10,7 @@ const pages = [
   { name: 'awards', path: resolve(__dirname, './src/awards.html') },
   { name: 'latest-news', path: resolve(__dirname, './src/latest-news.html') },
   { name: 'story', path: resolve(__dirname, './src/story.html') },
-  { name: 'sustainable', path: resolve(__dirname, './src/sustainable.html') },
+  { name: 'locations', path: resolve(__dirname, './src/locations.html') },
 ];
 
 export default pages;
