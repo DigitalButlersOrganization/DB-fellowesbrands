@@ -53,8 +53,8 @@
   letter-spacing: 0.1em;
   font-weight: 800;
   position: absolute;
-  left: 2.5%;
-  transform: translateY(-60%);
+  left: 6.5%;
+  transform: translateY(-65%);
   z-index: -1;
 }
 
@@ -97,7 +97,7 @@
     margin-left: 0;
   }
   .difference-decoration {
-    left: -1rem;
+    left: 0;
   }
 }
 
@@ -121,7 +121,6 @@
   }
   .difference-left-image-wrapper,
   .difference-right-image-wrapper {
-
-    max-width: 15.875rem;
+    width: 15.875rem;
   }
 }
