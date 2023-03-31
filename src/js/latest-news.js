@@ -1,12 +1,12 @@
 import { Dropdown, Tab } from "bootstrap";
 
-const countriesTabs = document.getElementById('countries-tabs');
-const countriesNavLinks = countriesTabs.querySelectorAll('.nav-link');
-const dropdownMenuForTabs = document.querySelector('.dropdown-menu[data-name="countries"]');
+const newsTabs = document.getElementById('news-tabs');
+const newsNavLinks = newsTabs.querySelectorAll('.nav-link');
+const dropdownMenuForTabs = document.querySelector('.dropdown-menu[data-name="news"]');
 const dropdownTrigger = document.querySelector('.dropdown-toggle[data-bs-toggle="dropdown"]');
 
 /** ***** Init Dropdown ***** **/
-const initLocationsDropdown = () => {
+const initLatestNewsDropdown = () => {
   new Dropdown(dropdownTrigger);
 
   dropdownMenuForTabs.addEventListener("click", function (event) {
@@ -16,18 +16,18 @@ const initLocationsDropdown = () => {
     prevActive.classList.remove('active');
     event.target.classList.add('active');
 
-    const matchedLink = Array.from(countriesNavLinks).find(
+    const matchedLink = Array.from(newsNavLinks).find(
       el=>el.href.includes(selectedHref)
     );
     matchedLink.click();
   })
 }
 
-initLocationsDropdown();
+initLatestNewsDropdown();
 
 /** ***** Tabs ***** **/
-const initLocationsTabs = () => {
-  new Tab(countriesTabs);
+const initLatestNewsTabs = () => {
+  new Tab(newsTabs);
 };
 
-initLocationsTabs();
+initLatestNewsTabs();

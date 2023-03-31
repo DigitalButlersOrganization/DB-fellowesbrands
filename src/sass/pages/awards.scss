@@ -11,7 +11,7 @@
     min-height: 100vh;
     background-color: var(--DB-body-color);
     background-image: url('../../images/awards-hero-background.webp'),
-      linear-gradient(225deg, rgba(68, 66, 71, 1) 0%, rgba(16, 15, 16, 1) 100%);
+    linear-gradient(225deg, rgba(68, 66, 71, 1) 0%, rgba(16, 15, 16, 1) 100%);
     background-size: cover;
     background-position: center;
 
@@ -35,7 +35,11 @@
       max-width: 55ch;
     }
   }
+
   &__awards {
+    //need for fixed dropdown-menu
+    z-index: 12;
+
     &-text-decoration {
       position: absolute;
       top: 0;
@@ -50,6 +54,7 @@
     &-group-heading {
       margin-bottom: -0.25em;
     }
+
     &-grid {
       gap: 1.5rem;
       @media screen and (min-width: 48em) {
@@ -61,14 +66,68 @@
       border: none;
       border-radius: 0;
     }
+
     &-image {
       max-width: calc(100% - min(4rem, 4vw));
       margin: 2rem auto;
       object-fit: contain;
     }
+
     &-body {
       border-top: 1px solid var(--DB-gray-200);
       padding-bottom: clamp(1.5rem, 2.75vw, 2.75rem);
     }
+
+    &-footer {
+      border-top: 1px solid #F4F4F4;
+      margin-top: 1.5rem;
+      padding-top: 1.5rem;
+      color: #777777;
+    }
   }
+
+  /******* tabs start *******/
+  // FIXME, PLEASE: поправить стили, добавить классы для font size'ов, z-index, box-shadow? :(
+  .dropdown-tabs {
+    z-index: 100;
+  }
+
+  .dropdown-toggle {
+    color: var(--text-white);
+    background-color: var(--DB-link-color) !important;
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.16);
+    border-radius: 1.25rem;
+    letter-spacing: 0.3em;
+    font-size: 0.8125rem;
+    line-height: 1rem;
+    border: none;
+    min-width: 15rem;
+  }
+
+  .dropdown-menu {
+    border: none;
+    border-radius: 1.25rem;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.16);
+  }
+
+  .dropdown-menu .dropdown-item {
+    font-size: 0.8125rem;
+    line-height: 1rem;
+    font-weight: 500;
+    background-color: var(--text-white);
+    color: rgba(92, 149, 205, 1);
+  }
+
+  .dropdown-menu .dropdown-item:hover {
+    background-color: rgba(92, 149, 205, 0.1);
+    color: rgba(92, 149, 205, 1);
+  }
+
+  .dropdown-menu .dropdown-item.active {
+    font-weight: 700;
+    background-color: rgba(92, 149, 205, 0.1);
+    color: rgba(92, 149, 205, 1);
+  }
+
+  /******* tabs end *******/
 }
