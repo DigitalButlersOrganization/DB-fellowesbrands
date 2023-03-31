@@ -9,7 +9,6 @@
     
     <script type="module" crossorigin src="./assets/js/overview.js"></script>
     <link rel="modulepreload" crossorigin href="./assets/js/core.js">
-    <link rel="modulepreload" crossorigin href="./assets/js/mdb.min.js">
     <link rel="stylesheet" href="./assets/css/core.css">
     <link rel="stylesheet" href="./assets/css/overview.css">
   </head>
@@ -32,7 +31,7 @@
           <!-- Tab navs -->
           <div class="nav flex-column nav-tabs text-center" id="v-tabs-tab" role="tablist" aria-orientation="vertical">
             <a
-              class="nav-link active text-uppercase fw-semibold p-0 px-3 mb-2 rounded-0"
+              class="nav-link active text-uppercase fw-semibold p-0 px-3 mb-2"
               id="v-tabs-family-tab"
               data-mdb-toggle="tab"
               href="#v-tabs-family"
@@ -42,7 +41,7 @@
               Family</a
             >
             <a
-              class="nav-link text-uppercase fw-semibold p-0 px-3 mb-2 rounded-0"
+              class="nav-link text-uppercase fw-semibold p-0 px-3 mb-2"
               id="v-tabs-innovation-tab"
               data-mdb-toggle="tab"
               href="#v-tabs-innovation"
@@ -52,7 +51,7 @@
               >Innovation</a
             >
             <a
-              class="nav-link text-uppercase fw-semibold p-0 px-3 mb-2 rounded-0"
+              class="nav-link text-uppercase fw-semibold p-0 px-3 mb-2"
               id="v-tabs-quality-tab"
               data-mdb-toggle="tab"
               href="#v-tabs-quality"
@@ -62,7 +61,7 @@
               >Quality</a
             >
             <a
-              class="nav-link text-uppercase fw-semibold p-0 px-3 mb-2 rounded-0"
+              class="nav-link text-uppercase fw-semibold p-0 px-3 mb-2"
               id="v-tabs-care-tab"
               data-mdb-toggle="tab"
               href="#v-tabs-care"
@@ -95,11 +94,7 @@
                 <div class="overview__family-figures-wrapper d-flex align-items-end">
                   <img class="overview__figure--left" src="./assets/img/Office.webp" class="figure-img img-fluid" alt="Сomfortable office" />
                   <img class="overview__figure--center" src="./assets/img/Teamwork.webp" class="figure-img img-fluid" alt="Team interaction" />
-                  <img
-                    class="overview__figure--right"
-                    src="./assets/img/Management.webp"
-                    class="figure-img img-fluid"
-                    alt="Ease of communication with management" />
+                  <img class="overview__figure--right" src="./assets/img/Management.webp" class="figure-img img-fluid" alt="Ease of communication with management" />
                 </div>
                 <div class="overview__family-content-wrapper mb-10">
                   <h2 class="overview__family-heading--xxl text-uppercase text-center">Family</h2>
@@ -143,7 +138,7 @@
                 <div class="overview__innovation-content-wrapper">
                   <div class="overview__innovation-header">
                     <h2 class="overview__innovation-heading--xxl text-uppercase"><span class="nowrap">Inno</span> vation</h2>
-                    <img class="overview__innovation-figure" src="./assets/img/Innovation office.webp" alt="Innovation office" />
+                      <img class="overview__innovation-figure" src="./assets/img/Innovation office.webp" alt="Innovation office" />
                   </div>
                   <h3 class="overview__innovation-heading--xl">Imagining the “not yet”, then creating it.</h3>
                   <p class="overview__innovation-paragraph">
@@ -185,7 +180,9 @@
                 <ul class="overview__quality-list">
                   <li class="overview__quality-item">500,000sqft of company-owned, company-operated manufacturing facilities.</li>
                   <li class="overview__quality-item">An average 100-day testing period before a product is released.</li>
-                  <li class="overview__quality-item">Corporate training to up-skill every employee to new roles and responsibilities.</li>
+                  <li class="overview__quality-item">
+                    Corporate training to up-skill every employee to new roles and responsibilities.
+                  </li>
                   <li class="overview__quality-item">100+ product design awards, averaging 3 per year.</li>
                   <li class="overview__quality-item">Vertically-integrated supply chain to maintain consistent quality.</li>
                 </ul>
@@ -245,20 +242,20 @@
         </div>
       </div>
       <!-- TABS END -->
-      <section class="pre-footer">
-        <div class="pre-footer__container">
-          <h2 class="pre-footer__heading">Giving Back to the Places and Communities We Call Home</h2>
-          <p class="pre-footer__paragraph">
+      <section class="overview__pre-footer">
+        <div class="overview__pre-footer-container">
+          <h2 class="overview__pre-footer-heading">Giving Back to the Places and Communities We Call Home</h2>
+          <p class="overview__pre-footer-paragraph">
             At Fellowes, we think carefully about our responsibility to build a healthier, more equitable world for everyone.
           </p>
-          <ul class="pre-footer__list">
-            <li class="pre-footer__item">
+          <ul class="overview__pre-footer-list">
+            <li class="overview__pre-footer-item">
               <img src="./assets/img/family-card.webp" alt="Family card image" />
             </li>
-            <li class="pre-footer__item">
+            <li class="overview__pre-footer-item">
               <img src="./assets/img/give-card.webp" alt="Give card image" />
             </li>
-            <li class="pre-footer__item">
+            <li class="overview__pre-footer-item">
               <img src="./assets/img/earth-card.webp" alt="Earth card image" />
             </li>
           </ul>
