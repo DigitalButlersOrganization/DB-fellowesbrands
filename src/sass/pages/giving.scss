@@ -76,12 +76,19 @@
   left: 10rem;
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1280px) {
   .difference-left-image-wrapper,
   .difference-right-image-wrapper {
     position: static;
     width: auto;
     max-width: 15.875rem;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .difference-left-image-wrapper,
+  .difference-right-image-wrapper {
+    max-width: 26rem;
   }
 }
 
@@ -111,5 +118,10 @@
   }
   .difference-decoration {
     font-size: 3.25rem;
+  }
+  .difference-left-image-wrapper,
+  .difference-right-image-wrapper {
+
+    max-width: 15.875rem;
   }
 }
