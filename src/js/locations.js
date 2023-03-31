@@ -1,5 +1,4 @@
-import 'mdb-ui-kit';
-import { Dropdown } from "bootstrap";
+import { Dropdown, Tab } from "bootstrap";
 
 const countriesTabs = document.getElementById('countries-tabs');
 const countriesNavLinks = countriesTabs.querySelectorAll('.nav-link');
@@ -28,32 +27,7 @@ initLocationsDropdown();
 
 /** ***** Tabs ***** **/
 const initLocationsTabs = () => {
-  function disableTabs() {
-    countriesNavLinks.forEach((link) => {
-      link.removeAttribute('data-mdb-toggle');
-    });
-  }
-
-  function enableTabs() {
-    countriesNavLinks.forEach((link) => {
-      link.setAttribute('data-mdb-toggle', 'tab');
-    });
-  }
-
-  window.addEventListener('load', () => {
-    if (window.innerWidth < 480) {
-      disableTabs();
-    }
-  });
-
-  window.addEventListener('resize', () => {
-    if (window.innerWidth < 480) {
-      disableTabs();
-    } else {
-      enableTabs();
-    }
-  });
+  new Tab(countriesTabs);
 };
 
 initLocationsTabs();
-
