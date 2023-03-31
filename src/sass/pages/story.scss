@@ -2,6 +2,12 @@
 @import '../core.scss';
 
 /******* hero start *******/
+.story__hero {
+  min-height: 100vh;
+  background: url('../../images/story-hero.jpg') no-repeat center;
+  background-size: cover;
+}
+
 .story-hero__inner {
   gap: 5rem;
 }
@@ -43,10 +49,19 @@
 /******* story start *******/
 
 /******* story content start *******/
+.story {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 .story__container {
+  flex: 1;
+  height: 100%;
   width: 100%;
-  padding-top: 6.75rem;
   position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 .story__skip {
@@ -69,10 +84,10 @@
   display: flex;
   flex-direction: row;
   overflow-x: scroll;
-  // height: 600px;
+  flex: 1;
   width: auto;
   margin: 0;
-  padding: 0;
+  padding: 4rem 0 0 0;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -126,7 +141,7 @@
   width: 100%;
   height: 1.125rem;
   max-width: 720px;
-  margin: 20px auto;
+  margin: 20px auto 60px;
   position: relative;
 }
 
@@ -221,7 +236,14 @@
 
 .story__part-title--white {
   color: var(--text-white);
-  -webkit-text-stroke: 1px var(--text-border-color);
+  text-shadow: 1px 0px 0px #d5d5d5, 
+    0px 1px 0px #d5d5d5, 
+    0px -1px 0px #d5d5d5, 
+    -1px 0px 0px #d5d5d5,
+    1px 1px 0px #d5d5d5,
+    1px -1px 0px #d5d5d5,
+    -1px 1px 0px #d5d5d5,
+    -1px -1px 0px #d5d5d5;
 }
 
 .story__part-subtitle {
@@ -234,7 +256,15 @@
   font-weight: 800;
   letter-spacing: 0.15em;
   color: var(--text-white);
-  -webkit-text-stroke: 1px var(--text-border-color);
+  // -webkit-text-stroke: 1px var(--text-border-color);
+  text-shadow: 1px 0px 0px #d5d5d5, 
+    0px 1px 0px #d5d5d5, 
+    0px -1px 0px #d5d5d5, 
+    -1px 0px 0px #d5d5d5,
+    1px 1px 0px #d5d5d5,
+    1px -1px 0px #d5d5d5,
+    -1px 1px 0px #d5d5d5,
+    -1px -1px 0px #d5d5d5;;
 }
 
 [class^='story__part-image'] {
@@ -245,6 +275,10 @@
     height: 100%;
     object-fit: cover;
   }
+}
+
+[class^='story__part-name'] {
+  line-height: 1em;
 }
 /******* story part common end *******/
 
@@ -277,9 +311,10 @@
 }
 
 .story__part-name-1-1 {
-  top: 10%;
+  top: 14%;
   left: 52%;
   transform: translateX(-50%);
+  line-height: 1em;
 }
 /******* story part 1-1 1917 end *******/
 
@@ -355,6 +390,9 @@
 
 .story__part-text-2-2 {
   max-width: 27rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .story__part-body-2-2 {
@@ -388,8 +426,8 @@
 }
 
 .story__part-name-3-1 {
-  top: 50%;
-  transform: translate(5rem, -50%);
+  top: 0;
+  transform: translate(5rem, 0);
   font-size: 9.375rem;
   line-height: 1em;
   max-width: 4ch;
@@ -417,6 +455,12 @@
   height: 100%;
   bottom: 0;
   right: 0;
+}
+
+.story__part-text-3-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 
 .story__part-image-3-2-1 {
@@ -490,6 +534,9 @@
 
 .story__part-text-4-2 {
   max-width: 32rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 
 .story__part-body-4-2 {
@@ -558,6 +605,9 @@
 
 .story__part-text-5-2 {
   max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 
 .story__part-body-5-2 {
