@@ -70,5 +70,11 @@
       border-top: 1px solid var(--DB-gray-200);
       padding-bottom: clamp(1.5rem, 2.75vw, 2.75rem);
     }
+    &-footer {
+      border-top: 1px solid #F4F4F4;
+      margin-top: 1.5rem;
+      padding-top: 1.5rem;
+      color: #777777;
+    }
   }
 }

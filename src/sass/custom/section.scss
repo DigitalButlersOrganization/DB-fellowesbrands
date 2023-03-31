@@ -1,3 +1,3 @@
 .section {
-  padding-block: 7.5rem;
+  padding-block: clamp(3.375rem, 10vw, 7.5rem);
 }
