@@ -48,7 +48,8 @@
 }
 
 .impact-decoration,
-.strategy-decoration {
+.strategy-decoration,
+.educing-decoration {
   letter-spacing: 0.1em;
   font-weight: 800;
   position: absolute;
@@ -57,7 +58,7 @@
   z-index: -1;
 }
 
-.strategy-image {
+.position-image--right {
   left: 10.5rem;
   object-fit: cover;
   width: 38.313rem;
@@ -83,16 +84,42 @@
   padding-right: 2vw;
 }
 
-.sustain-image {
+.position-image--left {
   position: relative;
   right: 10.5rem;
 }
 
+.improvement-decoration {
+  word-wrap: break-word;
+  line-height: 1e;
+  max-width: 55.313rem;
+  z-index: -1;
+  bottom: 0;
+  left: -.5rem;
+  letter-spacing: 0.1em;
+}
+
+.reducing-decoration {
+  width: 58.75rem;
+  bottom: -4.8rem;
+  transform: none;
+  left: auto;
+  right: -28%;
+  letter-spacing: 0.1em;
+  z-index: -1;
+}
+
 @media screen and (max-width: 1439px) {
-  .sustain-image,
-  .strategy-image {
+  .position-image--left,
+  .position-image--right {
     position: static;
     width: 100%;
+  }
+  .improvement-decoration {
+    max-width: 65vw;
+    font-size: 12vw;
+    left: .6rem;
+    bottom: -2rem;
   }
 }
 
@@ -102,6 +129,12 @@
   }
   .sustain-decoration {
     padding-right: .875rem;
+  }
+  .reducing-decoration {
+    font-size: 11vw;
+    left: auto;
+    right: auto;
+    bottom: -5rem;
   }
 }
 
