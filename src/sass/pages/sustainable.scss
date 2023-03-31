@@ -58,9 +58,9 @@
 }
 
 .strategy-image {
-  left: 6.8rem;
+  left: 10.5rem;
   object-fit: cover;
-  width: 100%;
+  width: 38.313rem;
   height: auto;
   position: relative;
 }
@@ -75,15 +75,33 @@
   color: var(--DB-light);
 }
 
+.sustain-decoration {
+  letter-spacing: 0.1em;
+  font-weight: 800;
+  width: 100%;
+  text-align: right;
+  padding-right: 2vw;
+}
+
+.sustain-image {
+  position: relative;
+  right: 10.5rem;
+}
+
 @media screen and (max-width: 1439px) {
+  .sustain-image,
   .strategy-image {
     position: static;
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 991px) {
   .hero .h1 .text-nowrap {
     margin-left: 0;
+  }
+  .sustain-decoration {
+    padding-right: .875rem;
   }
 }
 
