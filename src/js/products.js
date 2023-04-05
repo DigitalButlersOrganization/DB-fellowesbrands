@@ -1,6 +1,6 @@
 const initVideo = () => {
-  const video = document.querySelector("#products-work__video");
-  const videoBTN = document.querySelector(".products-work__video-button");
+  const video = document.querySelector('#products-work__video');
+  const videoBTN = document.querySelector('.products-work__video-button');
 
   video.addEventListener('click', () => {
     video.paused ? video.play() : video.pause();
@@ -10,31 +10,30 @@ const initVideo = () => {
 
 initVideo();
 
-
-
 document.addEventListener('DOMContentLoaded', () => {
   const slidesAction = document.querySelectorAll('.products-process__accordion-item');
 
-  slidesAction.forEach(slideAction => slideAction.addEventListener('click', (e) => {
-    document.querySelector('.products-process__accordion-item.js--active').classList.remove("js--active");
-    slideAction.classList.add("js--active");
-  }));
+  slidesAction.forEach((slideAction) =>
+    slideAction.addEventListener('click', () => {
+      document.querySelector('.products-process__accordion-item.js--active').classList.remove('js--active');
+      slideAction.classList.add('js--active');
+    }),
+  );
 });
 
-const checkWidth = function() {
+const checkWidth = function () {
   const windowsize = document.width();
   if (windowsize > 480) {
-      const slideWidth = document.querySelector('.js--active').width();
-      document.querySelector('.products-process__accordion-item-content').css({
-          width: `${slideWidth}px`,
-      });
+    const slideWidth = document.querySelector('.js--active').width();
+    document.querySelector('.products-process__accordion-item-content').css({
+      width: `${slideWidth}px`,
+    });
   }
+};
 
-}
-
-document.addEventListener("resize", () => {
+document.addEventListener('resize', () => {
   checkWidth();
 
   clearTimeout(window.resizedFinished);
-  window.resizedFinished = setTimeout( checkWidth , 500);
+  window.resizedFinished = setTimeout(checkWidth, 500);
 });

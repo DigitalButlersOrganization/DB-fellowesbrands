@@ -1,3 +1,17 @@
+.container-sm { max-width: 63rem; }
+.h1 { font-size: clamp(2.5rem, 12vw, 8rem); }
+.h2 { font-size: clamp(2rem, 6vw, 4rem); }
+.h3 { font-size: clamp(2rem, 6vw, 3rem); }
+.h4 { font-size: 1.75rem; }
+.h5 { font-size: 1.5rem; }
+.h6 { font-size: 1.25rem; }
+.text-outline { color: #fff; -webkit-text-stroke: max(1px, 0.00625em) #cccccc; }
+.display-2 { font-size: clamp(3.25rem, 14vw, 9.375rem); font-weight: 300; line-height: 1.1em; }
+.page-decoration { display: flex; justify-content: space-between;margin: 0 auto; position: absolute; top: 0; left: 0;right: 0;bottom: 0; z-index: -1;}
+.vertical-line { width: 1px; height: 100%; background-color: #F4F4F4;}
+.last-section { padding: 7.5rem 0 10rem;}
+@media screen and (max-width: 992px) { .last-section { padding: 3.125rem 0 2.5rem; }}
+
 .hero {
   height: 100vh;
   background: linear-gradient(51.52deg, #000000 -19.2%, rgba(0, 0, 0, 0) 79.51%), url('../../images/giving\ hero.webp');
@@ -111,14 +125,8 @@
     background-size: cover;
     background-position: 40%;
   }
-  .h1 {
-    font-size: 2.5rem;
-  }
   .btn-group.dropup {
     display: flex;
-  }
-  .difference-decoration {
-    font-size: 3.25rem;
   }
   .difference-left-image-wrapper,
   .difference-right-image-wrapper {
