@@ -1,1 +1,0 @@
-import 'mdb-ui-kit';

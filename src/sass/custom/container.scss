@@ -1,8 +1,0 @@
-.container {
-  padding-inline: var(--DB-gutter-x) !important;
-  @each $name, $size in $container-max-widths {
-    &-#{$name} {
-      max-width: $size;
-    }
-  }
-}
