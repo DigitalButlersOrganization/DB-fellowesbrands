@@ -37,8 +37,8 @@
 .top-scrolled-up .nav-link, .top-scrolled-up .menu-link { color: var(--fds-white); }
 @media screen and (max-width: 480px) { .lead-lg { font-size: 0.938rem; } }
 
-/******* lines *******/
-.page-decoration {
+  /******* lines *******/
+  .page-decoration {
     position: fixed;
   }
   
@@ -51,6 +51,12 @@
   }
   
   /******* hero end *******/
+  .with-hover:hover{
+    text-decoration: underline !important;
+  }
+  .radius-625{
+    border-radius: 0.625rem;
+  }
   /******* tabs start *******/
   .news .btn-dark {
     background: #000000;
