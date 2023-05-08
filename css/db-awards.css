@@ -181,7 +181,7 @@
     min-height: 48.25rem;
     background-color: var(--DB-body-color);
     background-image: url("../img/db/awards-hero-background.webp"),
-    linear-gradient(180deg, rgba(0, 0, 0, 0) 33%, rgba(0, 0, 0, 1) 100%);
+    linear-gradient(180deg, rgba(0, 0, 0, 0) 33%, rgba(0, 0, 0, 0.5) 100%);
     background-size: cover;
     background-position: center;
 }
